@@ -1,0 +1,788 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/*DEBUT TRANSFORMATION JQUERY*/
+
+.transformback
+{
+    transform:scale(1.08);
+    filter:blur(10px);
+}
+.transformbackimg
+{
+    background-color:rgba(255, 255, 255, 0.75);
+}
+.transformimg
+{
+    filter:brightness(0);
+}
+.transformlogo1
+{
+    opacity:0;
+}
+.transformlogo2
+{
+    opacity:1;
+    transition:0.4s 0.4s;
+}
+
+/*FIN TRANSFORMATION JQUERY*/
+
+.back
+{
+    position: absolute;
+    transform: scale(1.1);
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    z-index: 0;
+}
+
+.contenu
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-repeat: no-repeat;
+    z-index: 0;
+}
+nav
+{
+    display: flex;
+    background-color: #1a1a1a;
+    width: 90px;
+    height: 100%;
+    align-self: flex-start;
+    flex-direction: column;
+    justify-content: flex-start; 
+    align-items: center;
+    z-index: 4000;
+}
+.iconisaac
+{
+    width: 50px;
+    align-self: center;
+    margin-top: 30px;
+    transform-origin: top;
+    transform: scale(0);
+    cursor: pointer;
+    animation: animicon 0.7s 0.3s forwards;
+}
+@keyframes animicon
+{
+    0% {transform: scaleY(0) scaleX(0);}
+    100% {transform: scaleY(1) scaleX(1);}
+}
+.logoisaac
+{
+    position: absolute;
+    width: 300px;
+    margin-left: 180px;
+    margin-top: 30px;
+    z-index: 2000;
+}
+.home, .panier, .calend, .info
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 70px;
+    align-self: center;
+    transition: 0.3s;
+    z-index: 1000;
+    cursor: pointer;
+}
+.home img, .panier img, .calend img, .info img
+{
+    margin-left: 50%;
+    margin-right: 50%;
+    width: 20px;
+    height: 20px;
+    transition: 0.3s;
+}
+.menuouvrir
+{
+    position: absolute;
+    margin-top: 50px;
+    right: 40px;
+    z-index: 4000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.menufermer
+{
+    display: none;
+    position: absolute;
+    margin-top: 50px;
+    right: 40px;
+    z-index: 4000;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.menu
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    height: 100%;
+    width: 275px;
+    z-index: 3000;
+    background-color:rgba(0, 0, 0, 0.69);
+    transform: translateX(300px);
+    transition-duration: 0.3s;
+}
+.menu a
+{
+    text-decoration: none;
+}
+.destinations
+{
+    list-style: none;
+    align-self: center;
+    font-size: 22px;
+    font-family: myriad pro;
+    margin-bottom: 50px;
+    color: white;
+    letter-spacing: 2.5px;
+}
+.mars, .jupiter, .saturn, .moon
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
+    align-items: flex-start;
+    font-family: myriad pro;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 15px;
+}
+.mars img, .jupiter img, .moon img
+{
+    width: 50px;
+    cursor: pointer;
+}
+.mars p, .jupiter p, .moon p, .saturn p
+{
+    cursor: pointer;
+}
+.saturn img
+{
+    width: 90px;
+    margin-left: -20px;
+    cursor: pointer;
+}
+.mic
+{
+    position: absolute;
+    align-self: center;
+    margin: 0 50% 0px 50%;
+    bottom: 70px;
+}
+.imgmic1
+{
+    position: absolute;
+    width: 25px;
+    cursor: pointer;
+}
+.imgmic2
+{
+    position: absolute;
+    display: none;
+    width: 25px;
+    cursor: pointer;
+}
+.ondes1,.ondes2
+{
+    position: absolute;
+    border: solid 1.5px white;
+    border-bottom: none;
+    margin-bottom: -35px;
+    transform-origin: center; 
+    opacity: 0;
+}
+.ondes1
+{
+    width:20px;
+    height: 10px;
+    transition-duration: 0.5s;
+    bottom: 37px;
+    left: 1px;
+    border-radius: 10px 10px 0 0;
+}
+.ondes2
+{
+    width:10px;
+    height: 5px;
+    transition-duration: 0.5s;
+    bottom: 35px;
+    left: 6px;
+    border-radius: 5px 5px 0 0;
+}
+.shop
+{
+    position: absolute;
+    transform-origin: left;
+    transform: translateX(-2000px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.75);
+    left: 90px;
+    z-index: 2000;
+}
+.produits
+{
+    align-self: center;
+    margin-right: -520px;
+    font-family: Microsoft Yi Baiti;
+    font-size: 50px;
+    transition: 0.3s;
+    margin-top: -50px;
+    line-height: 0px;
+}
+.shop1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: -90px;
+}
+.casquette
+{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+.casquette:hover, .sac:hover, .verre:hover
+{
+    transform: scale(1.02);
+}
+.casquette img
+{
+    margin-top: 40px;
+    margin-left: 25px;
+    align-self: flex-start;
+    width: 200px;
+}
+.casquette p
+{
+    line-height: 1px;
+    margin-left: 20px;
+}
+.casquette p:nth-child(2)
+{
+    font-family: century gothic;
+    align-self: flex-start;
+    font-weight: bold;
+    color: #505050;
+    font-size: 22px;
+}
+.casquette p:nth-child(3)
+{
+    font-family: Myriad Pro;
+    align-self: flex-start;
+    color: #17278a;
+    font-size: 24px;
+    margin-top: 18px;
+}
+.casquette p:nth-child(4)
+{
+    font-family: Myriad Pro;
+    align-self: flex-start;
+    font-size: 15px;
+    margin-top: -2px;
+    text-decoration: line-through;
+}
+.sac
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    width: 550px;
+    height: 300px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s;
+}
+.sac img
+{
+    height: 220px;
+    align-self: center;
+    margin-left: 20px;
+}
+.textesac, .texteverre
+{
+    line-height: 1px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-right: 50px;
+}
+.sac p:nth-child(1), .verre p:nth-child(1)
+{
+    font-family: century gothic;
+    margin-top: -40px;;
+    align-self: flex-end;
+    font-weight: bold;
+    color: #505050;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+.sac p:nth-child(2), .verre p:nth-child(2)
+{
+    font-family: Myriad Pro;
+    align-self: flex-end;
+    color: #17278a;
+    font-size: 24px;
+    margin-top: 18px;
+}
+.sac p:nth-child(3), .verre p:nth-child(3)
+{
+    font-family: Myriad Pro;
+    align-self: flex-end;
+    font-size: 15px;
+    margin-top: -2px;
+    text-decoration: line-through;
+}
+.verre
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    width: 820px;
+    height: 300px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: -90px;
+    transition: 0.3s;
+}
+.verre img
+{
+    height: 200px;
+    margin-left: 50px;
+}
+.pagecasquette, .pagesac, .pageverre
+{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    transition: 0.3s;
+    width: 100%;
+    height: 100vh;
+    z-index: 2000;
+}
+.pagecasquette img
+{
+    width: 350px;
+}
+.fermercasq img
+{
+    position: absolute;
+    cursor: pointer;
+    align-self: flex-start;
+    height: 50px;
+    width: 50px;
+    top: 300px;
+    left: 350px;
+}
+.pagesac img
+{
+    width: 300px;
+}
+.fermersac img
+{
+    position: absolute;
+    cursor: pointer;
+    align-self: flex-start;
+    height: 50px;
+    width: 50px;
+    top: 300px;
+    left: 350px;
+}
+.pageverre img
+{
+    width: 400px;
+    margin-right: 50px;
+}
+.fermerverre img
+{
+    position: absolute;
+    cursor: pointer;
+    align-self: flex-start;
+    height: 50px;
+    width: 50px;
+    top: 300px;
+    left: 300px;
+}
+.descrcasquette, .descrsac, .descrverre
+{
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+.descrcasquette p:nth-child(1), .descrsac p:nth-child(1), .descrverre p:nth-child(1)
+{
+    font-family: century gothic;
+    color: #17278a;
+    font-size: 35px;
+    font-weight: lighter;
+}
+.descrcasquette p:nth-child(2), .descrsac p:nth-child(2), .descrverre p:nth-child(2)
+{
+    color: #797979;
+    font-family: verdana;
+    font-size: 15px;
+}
+.commandecasq, .commandesac, .commandeverre
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-self: flex-end;
+    width: 400px;
+}
+.commandeverre
+{
+    width: 500px;
+}
+.prixcasq, .prixsac, .prixverre
+{
+    display: flex;
+    flex-direction: column;
+}
+.prixcasq p:nth-child(1), .prixsac p:nth-child(1), .prixverre p:nth-child(1)
+{
+    font-family: myriad pro;
+    color: black;
+    font-size: 15px;
+    font-weight: lighter; 
+}
+.prixcasq p:nth-child(2), .prixsac p:nth-child(2), .prixverre p:nth-child(2)
+{
+    font-family: myriad pro;
+    margin-top: -5px;
+    color: #17278a;
+    font-size: 25px;
+}
+.prixcasq p:nth-child(3), .prixsac p:nth-child(3), .prixverre p:nth-child(3)
+{
+    text-align: right;
+    font-family: myriad pro;
+    margin-top: -30px;
+    color: black;
+    font-size: 13px;
+    text-decoration: line-through;
+}
+.quantcasq, .quantsac, .quantverre
+{
+    display: flex;
+    flex-direction: column;
+}
+.quantcasq p:nth-child(1), .quantsac p:nth-child(1), .quantverre p:nth-child(1)
+{
+    font-family: myriad pro;
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.quantcasq input[type="number"], .quantsac input[type="number"], .quantverre input[type="number"]
+{
+    border: none;
+    font-family: myriad pro;
+    background-color: white;
+    margin-top: -3px;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 13px;
+    width: 35px;
+    height: 35px;
+    border-radius: 17.5px;
+}
+.quantcasq input[type="number"]:focus, .quantsac input[type="number"]:focus, .quantverre input[type="number"]:focus
+{
+    outline: none;
+}
+.commandecasq input[type="button"], .commandesac input[type="button"], .commandeverre input[type="button"]
+{
+    height: 35px;
+    width: 150px;
+    margin-bottom: 18px;
+    align-self: flex-end;
+    border: none;
+    color: white;
+    font-size: 11px;
+    background-color: #060e19;
+    font-weight: bold;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+}
+.selectverre p:nth-child(1)
+{
+    font-family: myriad pro;
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+}
+.selectverre select
+{
+    outline: none;
+    border: none;
+    background-color: white;
+    height: 35px;
+    border-radius: 17.5px;
+    padding-left: 10px;
+}
+
+.expositions
+{
+    position: absolute;
+    display: flex;
+    transform-origin: left;
+    transform: translateX(-2000px);
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-left: 90px;
+    z-index: 2000;
+}
+.textexpo
+{
+    flex-direction: column;
+    width: 500px;    
+    margin-left: 100px;
+}
+h1
+{
+    font-family: calibri;
+    font-size: 120px;
+    font-weight: lighter;
+    margin-top: 30px;
+}
+h1 span
+{
+    font-size:65px;
+}
+.textexpo p:nth-child(2)
+{   
+    margin-top: -85px;
+    color: #797979;
+    font-size: 20px;
+    white-space: nowrap;
+    font-family: myriad pro;
+}
+h2
+{
+    font-family: century gothic;
+    color: #17278a;
+    font-size: 35px;
+    font-weight: lighter;
+    white-space: nowrap;
+    margin-top: 100px;
+}
+.textexpo p:nth-child(4)
+{
+    font-family: verdana;
+    color: #797979;
+    font-size:17px;
+    width: 420px;
+}
+.commexpo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 750px;
+    width: 700px;
+    margin-left: 50px;
+    margin-top: 135px;
+}
+.imgexpo
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.imgexpo a
+{
+    height: 0;
+}
+.imgexpo img
+{
+    height: 300px;
+    box-shadow: 3px 3px 10px #797979;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.imgexpo img:hover
+{
+    transform: scale(1.03);
+}
+.commande
+{
+    display: flex;
+    align-self: flex-end;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 350px;
+    margin-right: 10px;
+}
+.commande p
+{
+    display: flex;
+    flex-direction: column;
+    font-family: myriad pro;
+    line-height: 35px;
+}
+.commande span
+{
+    font-size: 30px;
+    color: #17278a;
+}
+.quantite
+{
+    display: flex;
+    flex-direction: column;
+}
+.quantite input[type="number"]
+{
+    border: none;
+    font-family: myriad pro;
+    background-color: white;
+    margin-top: -17px;
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 13px;
+    width: 35px;
+    height: 35px;
+    border-radius: 17.5px;
+}
+.quantite input[type="number"]:focus
+{
+    outline: none;
+}
+.commande input[type="button"]
+{
+    height: 35px;
+    width: 150px;
+    margin-bottom: 20px;
+    align-self: flex-end;
+    border: none;
+    color: white;
+    font-size: 11px;
+    background-color: #060e19;
+    font-weight: bold;
+    border-radius: 15px;
+    outline: none;
+    cursor: pointer;
+}
+.informations
+{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    transform-origin: left;
+    transform: translateX(-2000px);
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-left: 90px;
+    z-index: 2000;
+}
+.informations img
+{
+    transform: scale(0.7);
+}
+.qui
+{
+    margin-left: -90px;
+    margin-right: 10px;
+    background-color: white;
+    padding: 20px 50px 50px 50px ;
+    height: 700px;
+    transition: 0.3s;
+}
+.qui:hover, .engine:hover, .skyjet:hover
+{
+    transform: scale(1.02);
+}
+h3
+{
+    font-family: Century Gothic;
+    font-weight: lighter;
+    color: #17278a;
+    font-size: 35px;
+    margin: 0;
+}
+.informations p
+{
+    font-family: verdana;
+    color: #797979;
+    width: 360px;
+}
+h4, h5
+{
+    font-family: Century Gothic;
+    font-weight: lighter;
+    color: #17278a;
+    font-size: 35px;
+    margin: 0;
+}
+.descriptions
+{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.engine, .skyjet
+{
+    background-color: white;
+    padding: 20px;
+    height: 335px;
+    transition: 0.3s;
+}
+.engine
+{
+    margin-bottom: 10px;
+}
+.skyjet
+{
+    margin-top: 10px;
+}
+.enginedes, .skyjetdes
+{
+    display: flex;
+    flex-direction: row;
+}
