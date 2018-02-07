@@ -82,7 +82,7 @@ nav
     align-items: center;
     z-index: 4000;
 }
-.iconisaac
+.iconeaccueil
 {
     width: 50px;
     align-self: center;
@@ -97,7 +97,7 @@ nav
     0% {transform: scaleY(0) scaleX(0);}
     100% {transform: scaleY(1) scaleX(1);}
 }
-.logoisaac
+.logojeanmoulin
 {
     position: absolute;
     width: 300px;
@@ -105,7 +105,7 @@ nav
     margin-top: 30px;
     z-index: 2000;
 }
-.home, .panier, .calend, .info
+.home, .connexion, .calend, .info
 {
     display: flex;
     justify-content: center;
@@ -118,7 +118,7 @@ nav
     z-index: 1000;
     cursor: pointer;
 }
-.home img, .panier img, .calend img, .info img
+.home img, .connexion img, .calend img, .info img
 {
     margin-left: 50%;
     margin-right: 50%;
@@ -264,323 +264,8 @@ nav
     left: 90px;
     z-index: 2000;
 }
-.produits
-{
-    align-self: center;
-    margin-right: -520px;
-    font-family: Microsoft Yi Baiti;
-    font-size: 50px;
-    transition: 0.3s;
-    margin-top: -50px;
-    line-height: 0px;
-}
-.shop1
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-left: -90px;
-}
-.casquette
-{
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    width: 250px;
-    height: 300px;
-    cursor: pointer;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    transition: 0.3s;
-}
-.casquette:hover, .sac:hover, .verre:hover
-{
-    transform: scale(1.02);
-}
-.casquette img
-{
-    margin-top: 40px;
-    margin-left: 25px;
-    align-self: flex-start;
-    width: 200px;
-}
-.casquette p
-{
-    line-height: 1px;
-    margin-left: 20px;
-}
-.casquette p:nth-child(2)
-{
-    font-family: century gothic;
-    align-self: flex-start;
-    font-weight: bold;
-    color: #505050;
-    font-size: 22px;
-}
-.casquette p:nth-child(3)
-{
-    font-family: Myriad Pro;
-    align-self: flex-start;
-    color: #17278a;
-    font-size: 24px;
-    margin-top: 18px;
-}
-.casquette p:nth-child(4)
-{
-    font-family: Myriad Pro;
-    align-self: flex-start;
-    font-size: 15px;
-    margin-top: -2px;
-    text-decoration: line-through;
-}
-.sac
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: white;
-    width: 550px;
-    height: 300px;
-    cursor: pointer;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    transition: 0.3s;
-}
-.sac img
-{
-    height: 220px;
-    align-self: center;
-    margin-left: 20px;
-}
-.textesac, .texteverre
-{
-    line-height: 1px;
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-    margin-right: 50px;
-}
-.sac p:nth-child(1), .verre p:nth-child(1)
-{
-    font-family: century gothic;
-    margin-top: -40px;;
-    align-self: flex-end;
-    font-weight: bold;
-    color: #505050;
-    font-size: 22px;
-    letter-spacing: 1px;
-}
-.sac p:nth-child(2), .verre p:nth-child(2)
-{
-    font-family: Myriad Pro;
-    align-self: flex-end;
-    color: #17278a;
-    font-size: 24px;
-    margin-top: 18px;
-}
-.sac p:nth-child(3), .verre p:nth-child(3)
-{
-    font-family: Myriad Pro;
-    align-self: flex-end;
-    font-size: 15px;
-    margin-top: -2px;
-    text-decoration: line-through;
-}
-.verre
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: white;
-    width: 820px;
-    height: 300px;
-    cursor: pointer;
-    margin-top: 10px;
-    margin-left: -90px;
-    transition: 0.3s;
-}
-.verre img
-{
-    height: 200px;
-    margin-left: 50px;
-}
-.pagecasquette, .pagesac, .pageverre
-{
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    transition: 0.3s;
-    width: 100%;
-    height: 100vh;
-    z-index: 2000;
-}
-.pagecasquette img
-{
-    width: 350px;
-}
-.fermercasq img
-{
-    position: absolute;
-    cursor: pointer;
-    align-self: flex-start;
-    height: 50px;
-    width: 50px;
-    top: 300px;
-    left: 350px;
-}
-.pagesac img
-{
-    width: 300px;
-}
-.fermersac img
-{
-    position: absolute;
-    cursor: pointer;
-    align-self: flex-start;
-    height: 50px;
-    width: 50px;
-    top: 300px;
-    left: 350px;
-}
-.pageverre img
-{
-    width: 400px;
-    margin-right: 50px;
-}
-.fermerverre img
-{
-    position: absolute;
-    cursor: pointer;
-    align-self: flex-start;
-    height: 50px;
-    width: 50px;
-    top: 300px;
-    left: 300px;
-}
-.descrcasquette, .descrsac, .descrverre
-{
-    display: flex;
-    flex-direction: column;
-    width: 600px;
-}
-.descrcasquette p:nth-child(1), .descrsac p:nth-child(1), .descrverre p:nth-child(1)
-{
-    font-family: century gothic;
-    color: #17278a;
-    font-size: 35px;
-    font-weight: lighter;
-}
-.descrcasquette p:nth-child(2), .descrsac p:nth-child(2), .descrverre p:nth-child(2)
-{
-    color: #797979;
-    font-family: verdana;
-    font-size: 15px;
-}
-.commandecasq, .commandesac, .commandeverre
-{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-self: flex-end;
-    width: 400px;
-}
-.commandeverre
-{
-    width: 500px;
-}
-.prixcasq, .prixsac, .prixverre
-{
-    display: flex;
-    flex-direction: column;
-}
-.prixcasq p:nth-child(1), .prixsac p:nth-child(1), .prixverre p:nth-child(1)
-{
-    font-family: myriad pro;
-    color: black;
-    font-size: 15px;
-    font-weight: lighter; 
-}
-.prixcasq p:nth-child(2), .prixsac p:nth-child(2), .prixverre p:nth-child(2)
-{
-    font-family: myriad pro;
-    margin-top: -5px;
-    color: #17278a;
-    font-size: 25px;
-}
-.prixcasq p:nth-child(3), .prixsac p:nth-child(3), .prixverre p:nth-child(3)
-{
-    text-align: right;
-    font-family: myriad pro;
-    margin-top: -30px;
-    color: black;
-    font-size: 13px;
-    text-decoration: line-through;
-}
-.quantcasq, .quantsac, .quantverre
-{
-    display: flex;
-    flex-direction: column;
-}
-.quantcasq p:nth-child(1), .quantsac p:nth-child(1), .quantverre p:nth-child(1)
-{
-    font-family: myriad pro;
-    color: black;
-    font-size: 15px;
-    font-weight: lighter;
-}
-.quantcasq input[type="number"], .quantsac input[type="number"], .quantverre input[type="number"]
-{
-    border: none;
-    font-family: myriad pro;
-    background-color: white;
-    margin-top: -3px;
-    padding-left: 15px;
-    padding-right: 10px;
-    font-size: 13px;
-    width: 35px;
-    height: 35px;
-    border-radius: 17.5px;
-}
-.quantcasq input[type="number"]:focus, .quantsac input[type="number"]:focus, .quantverre input[type="number"]:focus
-{
-    outline: none;
-}
-.commandecasq input[type="button"], .commandesac input[type="button"], .commandeverre input[type="button"]
-{
-    height: 35px;
-    width: 150px;
-    margin-bottom: 18px;
-    align-self: flex-end;
-    border: none;
-    color: white;
-    font-size: 11px;
-    background-color: #060e19;
-    font-weight: bold;
-    border-radius: 15px;
-    outline: none;
-    cursor: pointer;
-}
-.selectverre p:nth-child(1)
-{
-    font-family: myriad pro;
-    color: black;
-    font-size: 15px;
-    font-weight: lighter;
-}
-.selectverre select
-{
-    outline: none;
-    border: none;
-    background-color: white;
-    height: 35px;
-    border-radius: 17.5px;
-    padding-left: 10px;
-}
 
-.expositions
+.evenement
 {
     position: absolute;
     display: flex;
@@ -662,65 +347,7 @@ h2
 {
     transform: scale(1.03);
 }
-.commande
-{
-    display: flex;
-    align-self: flex-end;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-    width: 350px;
-    margin-right: 10px;
-}
-.commande p
-{
-    display: flex;
-    flex-direction: column;
-    font-family: myriad pro;
-    line-height: 35px;
-}
-.commande span
-{
-    font-size: 30px;
-    color: #17278a;
-}
-.quantite
-{
-    display: flex;
-    flex-direction: column;
-}
-.quantite input[type="number"]
-{
-    border: none;
-    font-family: myriad pro;
-    background-color: white;
-    margin-top: -17px;
-    padding-left: 15px;
-    padding-right: 10px;
-    font-size: 13px;
-    width: 35px;
-    height: 35px;
-    border-radius: 17.5px;
-}
-.quantite input[type="number"]:focus
-{
-    outline: none;
-}
-.commande input[type="button"]
-{
-    height: 35px;
-    width: 150px;
-    margin-bottom: 20px;
-    align-self: flex-end;
-    border: none;
-    color: white;
-    font-size: 11px;
-    background-color: #060e19;
-    font-weight: bold;
-    border-radius: 15px;
-    outline: none;
-    cursor: pointer;
-}
+
 .informations
 {
     position: absolute;
