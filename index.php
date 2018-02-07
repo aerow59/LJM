@@ -14,7 +14,7 @@
                 <div class="home" title="Accueil">
                     <img src="images/home.png" alt="">
                 </div>
-                <div class="panier" title="Magasin en ligne">
+                <div class="panier" title="Se connecter">
                     <img src="images/connexionlogo.png" alt="">
                 </div>
                 <div class="calend" title="Calendrier">
@@ -59,7 +59,7 @@
                     </div>
                     <div class="descrsac">
                         <p></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae itaque illum minima dolorum veniam inventore animi, voluptas eaque quod in nihil laborum vel dignissimos quibusdam expedita impedit, ab, quae omnis?</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
                         <div class="commandesac">
                             <div class="prixsac">
                                 <P></P>
@@ -153,6 +153,9 @@
                         </div>
                     </div>
                 </div>   
+            </div>
+            <div class="test">
+                <h2>TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT</h2>        
             </div>
             <div class="menuouvrir">
                 <img src="images/boutonouvrir.png" alt="" title="Ouvrir destinations">
