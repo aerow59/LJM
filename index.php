@@ -29,12 +29,10 @@
                         <img src="" title="Retour au magasin">
                     </div>
                    
-                    <div class="descrcasquette">
-                        <p></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae itaque illum minima dolorum veniam inventore animi, voluptas eaque quod in nihil laborum vel dignissimos quibusdam expedita impedit, ab, quae omnis?</p>
+                   
                        
                 </div>
-                </div>
+
                 <div class="pagesac">
                     <div class="fermersac">
                         <img src="images/retour.png" title="Retour au magasin">

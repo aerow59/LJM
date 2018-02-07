@@ -128,7 +128,7 @@ nav
     color: white;
     letter-spacing: 2.5px;
 }
-.nosformations, ., .saturn, .moon
+.mars, .jupiter, .saturn, .moon
 {
     display: flex;
     flex-direction: row;
@@ -143,12 +143,12 @@ nav
     color: white;
     font-size: 15px;
 }
-.nosformation img, .jupiter img, .moon img
+.mars img, .jupiter img, .moon img
 {
     width: 50px;
     cursor: pointer;
 }
-.nosformations p, .jupiter p, .moon p, .saturn p
+.mars p, .jupiter p, .moon p, .saturn p
 {
     cursor: pointer;
 }
