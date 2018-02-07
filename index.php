@@ -6,15 +6,15 @@
         <title>Lycée Jean Moulin</title>
     </head>
     <body>
-        <img class="logoisaac" src="" alt="">
-        <img class="back" src="images/Sans%20titrem.png" alt="">
+        <img class="logojeanmoulin" src="" alt="">
+        <img class="back" src="images/logojeanmoulin.png" alt="">
         <div class="contenu">
             <nav>
-                <img class="iconisaac" src="" alt="">
+                <img class="iconeaccueil" src="" alt="">
                 <div class="home" title="Accueil">
                     <img src="images/home.png" alt="">
                 </div>
-                <div class="panier" title="Magasin en ligne">
+                <div class="connexion" title="Magasin en ligne">
                     <img src="images/connexionlogo.png" alt="">
                 </div>
                 <div class="calend" title="Calendrier">
@@ -26,88 +26,30 @@
             </nav>
             <div class="shop">
                 <p class="produits"></p>                          
-                <div class="pagecasquette">
-                    <div class="fermercasq">
                         <img src="" title="Retour au magasin">
                     </div>
-                    <div>
-                        <img src="images/casquette.png" alt="">
-                    </div>
+                   
                     <div class="descrcasquette">
                         <p></p>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae itaque illum minima dolorum veniam inventore animi, voluptas eaque quod in nihil laborum vel dignissimos quibusdam expedita impedit, ab, quae omnis?</p>
-                        <div class="commandecasq">
-                            <div class="prixcasq">
-                                <P></P>
-                                <p></p>
-                                <p></p>
-                            </div> 
-                            <div class="quantcasq">
-                                <p></p>
-                                <input type="number" name="Nombre" value="0">
-                            </div>
-                            <input type="button" name="Panier" value="AJOUTER AU PANIER">           
-                        </div>
-                    </div>
+                       
+                </div>
                 </div>
                 <div class="pagesac">
                     <div class="fermersac">
                         <img src="images/retour.png" title="Retour au magasin">
                     </div>
                     <div>
-                        <img src="images/sac.png" alt="">
-                    </div>
-                    <div class="descrsac">
-                        <p></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae itaque illum minima dolorum veniam inventore animi, voluptas eaque quod in nihil laborum vel dignissimos quibusdam expedita impedit, ab, quae omnis?</p>
-                        <div class="commandesac">
-                            <div class="prixsac">
-                                <P></P>
-                                <p></p>
-                                <p></p>
-                            </div> 
-                            <div class="quantsac">
-                                <p></p>
-                                <input type="number" name="Nombre" value="0">
-                            </div>
-                            <input type="button" name="Panier" value="AJOUTER AU PANIER">           
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="pageverre">
                     <div class="fermerverre">
                         <img src="images/retour.png" title="Retour au magasin">
                     </div>
-                    <div>
-                        <img src="images/verres.png" alt="">
-                    </div>
-                    <div class="descrverre">
-                        <p></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae itaque illum minima dolorum veniam inventore animi, voluptas eaque quod in nihil laborum vel dignissimos quibusdam expedita impedit, ab, quae omnis?</p>
-                        <div class="commandeverre">
-                            <div class="prixverre">
-                                <P></P>
-                                <p></p>
-                                <p></p>
-                            </div>
-                            <div class="selectverre">
-                                <p></p>
-                                <select name="select">
-                                    <option></option>
-                                    <option></option>
-                                    <option></option>
-                                </select>
-                            </div> 
-                            <div class="quantverre">
-                                <p></p>
-                                <input type="number" name="Nombre" value="0">
-                            </div>
-                            <input type="button" name="Panier" value="AJOUTER AU PANIER">           
-                        </div>
+                   </div>
                     </div>
                 </div>
             </div>
-            <div class="expositions">
+            <div class="Evenement">
                 <div class="textexpo">
                     <h1>Exposition</span></h1>
                     <p>Du 07 au 13 août 2018 | </p>
