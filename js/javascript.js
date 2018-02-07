@@ -30,7 +30,7 @@ $(document).ready(function () {
         produits = $('.produits'),
         fermercasq = $('.fermercasq'),
         fermersac = $('.fermersac'),
-        testP = $('.test'),
+        page_connexion = $('.page_connexion'),
         fermerverre = $('.fermerverre');
 
     menuouvrir.click(function () {
@@ -66,7 +66,7 @@ $(document).ready(function () {
         info.removeClass('transformbackimg');
         infoimg.removeClass('transformimg');
         logo.addClass('transformlogo1').removeClass('transformlogo2');
-        testP.css('transform','translateX(0)').css('transition','0.3s');     
+        page_connexion.css('transform','translateX(0)').css('transition','0.3s');     
         expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
         infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
         mic1.hide();
@@ -84,7 +84,7 @@ $(document).ready(function () {
         infoimg.removeClass('transformimg');
         logo.addClass('transformlogo1').removeClass('transformlogo2');
         expo.css('transform', 'translateX(0)').css('transition', '0.3s');
-        testP.css('transform','translateX(-2000px)').css('transition','0s');    
+        page_connexion.css('transform','translateX(-2000px)').css('transition','0s');    
         shop.css('transform', 'translateX(-2000px)').css('transition', '0s');
         infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
         mic1.hide();
@@ -101,7 +101,7 @@ $(document).ready(function () {
         calendimg.removeClass('transformimg');
         logo.addClass('transformlogo1').removeClass('transformlogo2');
         infos.css('transform', 'translateX(0)').css('transition', '0.3s');
-        testP.css('transform','translateX(-2000px)').css('transition','0s');  
+        page_connexion.css('transform','translateX(-2000px)').css('transition','0s');  
         expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
         shop.css('transform', 'translateX(-2000px)').css('transition', '0s');
         mic1.hide();
@@ -117,7 +117,7 @@ $(document).ready(function () {
         info.removeClass('transformbackimg');
         infoimg.removeClass('transformimg');
         logo.addClass('transformlogo2');
-        testP.css('transform','translateX(-2000px)');  
+        page_connexion.css('transform','translateX(-2000px)');  
         infos.css('transform', 'translateX(-2000px)');
         expo.css('transform', 'translateX(-2000px)');
         shop.css('transform', 'translateX(-2000px)');
@@ -134,7 +134,7 @@ $(document).ready(function () {
         info.removeClass('transformbackimg');
         infoimg.removeClass('transformimg');
         logo.addClass('transformlogo2');
-        testP.css('transform','translateX(-2000px)');  
+        page_connexion.css('transform','translateX(-2000px)');  
         infos.css('transform', 'translateX(-2000px)');
         expo.css('transform', 'translateX(-2000px)');
         shop.css('transform', 'translateX(-2000px)');

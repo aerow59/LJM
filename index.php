@@ -156,7 +156,7 @@
             </div>
             <div class="page_connexion">
                 <div class="contenu_connexion">
-                    
+                    <?php include('pageConnexion.php'); ?>
                 </div>    
             </div>
             <div class="menuouvrir">
@@ -166,7 +166,6 @@
                 <img src="images/boutonfermer.png" alt="" title="Fermer destinations">
             </div>
             <div class="menu">
-              <?php include('php/getM.php'); ?>
             </div>
             <div class="mic">
                 <img class="imgmic1" src="images/mic.png" alt="" title="Recherche vocale">
