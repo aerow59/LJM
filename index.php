@@ -154,8 +154,10 @@
                     </div>
                 </div>   
             </div>
-            <div class="test">
-                <h2>TESTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT</h2>        
+            <div class="page_connexion">
+                <div class="contenu_connexion">
+                    
+                </div>    
             </div>
             <div class="menuouvrir">
                 <img src="images/boutonouvrir.png" alt="" title="Ouvrir destinations">
