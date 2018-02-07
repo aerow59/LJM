@@ -786,3 +786,8 @@ h4, h5
     display: flex;
     flex-direction: row;
 }
+
+.menuArt{
+    font-family: verdana;
+    color: white;
+}

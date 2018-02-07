@@ -3,8 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="style.css">
-        <link rel="icon" type="" href="">
-        <title>Isaac ISA</title>
+        <title>Lycée Jean Moulin</title>
     </head>
     <body>
         <img class="logoisaac" src="" alt="">
@@ -26,31 +25,7 @@
                 </div>
             </nav>
             <div class="shop">
-                <p class="produits"></p>
-                <div class="shop1">
-                    <div class="casquette">
-                        <img src="" alt="">
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                    </div>
-                    <div class="sac">
-                        <img src="" alt="">
-                        <div class="textesac">
-                            <p></p>
-                            <p></p>
-                            <p></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="verre">
-                    <img src="" alt="">
-                    <div class="texteverre">
-                        <p></p>
-                        <p></p>
-                        <p></p>
-                    </div>
-                </div>
+                <p class="produits"></p>                          
                 <div class="pagecasquette">
                     <div class="fermercasq">
                         <img src="" title="Retour au magasin">
@@ -134,7 +109,7 @@
             </div>
             <div class="expositions">
                 <div class="textexpo">
-                    <h1>Expo<span>sition</span></h1>
+                    <h1>Exposition</span></h1>
                     <p>Du 07 au 13 août 2018 | </p>
                     <h2><br></h2>
                     <p>Venez découvrir comment nos ancêtres ont explorés notre système solaire, les fabuleuses avancées technologiques qui ont permis  d'accomplir cet exploit remarquable pour l'epoque.<br><br>Plongez dans le quotidien difficile des hommes et des femmes qui ont faconnés notre présent et à qui nous devons le monde tel qu'il est aujourd'hui.<br><br>Isaac vous permet d'explorer le système solaire et de poser le pied sur des mondes fascinants pour la première fois dans l'histoire de l'humantié et vous offre la possiblité de rendre un vibrant hommage aux pionniers qui ont permis d'écrire cette fabuleuse histoire aujourd'hui, avec vous.
@@ -161,33 +136,20 @@
                     <h3>QUI SOMMES NOUS?</h3>
                     <p>
                         Depuis l'aube de l'humanité l'être humain n'a de cesse de lever les yeux vers le ciel en quête de réponses. cet emmerveillement pour la voute céleste à traversé les âges et nourris de nombreux espoirs. nos ancêtres ont toujours redoublés d'imagination pour observer et comprendre cet espace qui leur paraissait inaccessible et mystérieux.<br><br>
-                        Aujourd'hui ce rêve est à portée de main grâce aux technologies dévellopées chez isaac. nous offrons à l'humanité la possibilité de dépasser sa propre imagination et d'enfin considérer l'espace comme un endroit accessible à tous dont les infinités de possiblités sont encore à découvrir.<br><br>
-                        Depuis 2308, année de la création de l'entreprise isaac, nous sommes spécialisé dans le vol spatial public ou privé et le transport de marchandises à destination des colonies de mars, jupiter et saturne.<br><br>
-                        Dans les premières années de l'existence d'isaac nos premiers vols ne dépassaient guêre l'orbite lunaire, mais depuis la découverte historique en 2375 par nos ingénieurs de la fusion froide et la création du isaac engine les étoiles s'offrent enfin à nous.<br><br>
-                        Rendez-vous dans les étoiles !
-                    </p>
+                        Aujourd'hui ce rêve est à portée de main grâce aux technologies dévellopées chez isaac. nous offrons à l'humanité la possibilité de dépasser sa propre imagination et d'enfin considérer l'espace comme un endroit accessible à tous dont les infinités de possiblités sont encore à découvrir.<br><br>                    </p>
                 </div> 
                 <div class="descriptions">
                     <div class="engine">
                         <h4>COMMENT VENIR ?</h4>
                         <div class="enginedes">
                             <img src="" alt="">
-                            <p>Voici le moteur qui a permis l'exploration du systeme solaire a 50% de la vitesse de la lumière.<br><br>
-                                Créé en 2375 par nos ingénieurs, ce bijou de technologie fonctionne à la fusion nucléaire froide ce qui fait de lui le moteur le plus efficace, le plus propre et le plus autonome en énergie.<br><br> 
-                                Son design a depuis évolué mais la technologie déjà optimale employée dès sa création est toujours présente au coeur de nos moteurs qui équipent nos fusées.</p>
+                            <p>Voici le moteur qui a permis l'exploration du systeme solaire a 50% de la vitesse de la lumière.<br><br></p>
                         </div>
                     </div>
                     <div class="skyjet">
                         <h5>PLAN DU LYCEE</h5>
                         <div class="skyjetdes">
-                            <img src="" alt="">
-                            <p>Equipée du moteur isaac engine 3.0 cette navette spatiale dispose de tout le confort nécessaire aux voyages interplanétaires. l'isaac skyjet vous permet de profiter de la vue grâce à sa baie d'observation ou d'écourter votre voyage grâce aux chambres cryogéniques.<br><br>
-                                Longueur: 100m<br>
-                                Largeur: 25m<br>
-                                Hauteur: 26m<br>
-                                Poids: 40t<br>
-                                Vitesse: 0.5C soit 539 626 424km/h<br>
-                                Capacité: 20 personnes</p>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2527.8873179015945!2d3.171414215423497!3d50.68491657950842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c328f3d00d06c1%3A0xb4295bc612cfa9be!2sLyc%C3%A9e+Jean+Moulin+de+Roubaix!5e0!3m2!1sfr!2sfr!4v1517924232213" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>                        
                         </div>
                     </div>
                 </div>   
@@ -199,23 +161,7 @@
                 <img src="images/boutonfermer.png" alt="" title="Fermer destinations">
             </div>
             <div class="menu">
-                <p class="destinations">NOS FORMATION</p>
-                <a href="Destinations/Mars.html" class=mars>
-                    <img class="imgmars" src="" alt="">
-                    <p>ERASMUS</p>
-                </a>
-                <a href="Destinations/Jupiter.html" class="jupiter">
-                    <img class="imgjupiter" src="" alt="">
-                    <p>CDI</p>
-                </a>
-                <a href="Destinations/Saturne.html" class="saturn">
-                    <img class="imgsaturn" src="" alt="">
-                    <p>PARCOURS</p>
-                </a>
-                <a href="Destinations/Lune.html" class="moon">
-                    <img class="imglune" src="" alt="">
-                    <p></p>
-                </a>
+              <?php include('php/getM.php'); ?>
             </div>
             <div class="mic">
                 <img class="imgmic1" src="images/mic.png" alt="" title="Recherche vocale">
@@ -227,5 +173,6 @@
         <script src="js/jquery-3.2.1.js"></script>
         <script src="js/jquery-ui.js"></script>
         <script src="js/javascript.js"></script>
+        <script src="js/tilt.jquery.min.js"></script>
     </body>
 </html>
