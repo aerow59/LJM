@@ -6,8 +6,8 @@
         <title>Lycée Jean Moulin</title>
     </head>
     <body>
-        <img class="logojeanmoulin" src="" alt="">
-        <img class="back" src="images/logojeanmoulin.png" alt="">
+        <img class="logojeanmoulin" src="images/logojeanmoulin.png" alt="">
+        <img class="back" src="images/sanstitrem.png" alt="">
         <div class="contenu">
             <nav>
                 <img class="iconeaccueil" src="" alt="">
