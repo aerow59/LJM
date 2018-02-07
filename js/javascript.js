@@ -8,7 +8,7 @@ $(document).ready(function () {
         mic1 = $('.imgmic1'),
         mic2 = $('.imgmic2'),
         ondes = $('.ondes1, .ondes2'),
-        panier = $('.panier'),
+        connexion = $('.connexion'),
         back = $('.back'),
         panierimg = $('.panier img'),
         calend = $('.calend'),
@@ -16,11 +16,11 @@ $(document).ready(function () {
         info = $('.info'),
         infos = $('.informations'),
         infoimg = $('.info img'),
-        logo = $('.logoisaac'),
+        logo = $('.logojeanmoulin'),
         shop = $('.shop'),
-        expo = $('.expositions'),
+        expo = $('.evenements'),
         home = $('.home'),
-        icon = $('.iconisaac'),
+        icon = $('.iconjeanmoulin'),
         pagecasquette = $('.pagecasquette'),
         pagesac = $('.pagesac'),
         pageverre = $('.pageverre'),
@@ -56,9 +56,9 @@ $(document).ready(function () {
         mic2.hide();
     });
 
-    panier.click(function () {
+    connexion.click(function () {
         back.addClass('transformback');
-        panier.addClass('transformbackimg');
+        connexion.addClass('transformbackimg');
         panierimg.addClass('transformimg');
         calend.removeClass('transformbackimg');
         calendimg.removeClass('transformimg');
@@ -77,7 +77,7 @@ $(document).ready(function () {
         back.addClass('transformback');
         calend.addClass('transformbackimg');
         calendimg.addClass('transformimg');
-        panier.removeClass('transformbackimg');
+        connexion.removeClass('transformbackimg');
         panierimg.removeClass('transformimg');
         info.removeClass('transformbackimg');
         infoimg.removeClass('transformimg');
@@ -93,7 +93,7 @@ $(document).ready(function () {
         back.addClass('transformback');
         info.addClass('transformbackimg');
         infoimg.addClass('transformimg');
-        panier.removeClass('transformbackimg');
+        connexion.removeClass('transformbackimg');
         panierimg.removeClass('transformimg');
         calend.removeClass('transformbackimg');
         calendimg.removeClass('transformimg');
@@ -107,7 +107,7 @@ $(document).ready(function () {
 
     home.click(function () {
         back.removeClass('transformback');
-        panier.removeClass('transformbackimg');
+        connexion.removeClass('transformbackimg');
         panierimg.removeClass('transformimg');
         calend.removeClass('transformbackimg');
         calendimg.removeClass('transformimg');
@@ -123,7 +123,7 @@ $(document).ready(function () {
 
     icon.click(function () {
         back.removeClass('transformback');
-        panier.removeClass('transformbackimg');
+        connexion.removeClass('transformbackimg');
         panierimg.removeClass('transformimg');
         calend.removeClass('transformbackimg');
         calendimg.removeClass('transformimg');
