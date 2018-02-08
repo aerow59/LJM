@@ -1,7 +1,7 @@
 <form method="POST" action="#">
     <link rel="stylesheet" href="connexion.css">
     <div class="connexion"><h2>Connexion</h2></div>
-    <div class="textco"> <p>Connectez vous pour pouvoir accéder à vos informations et/ou à moodle.</p></div>
+    <div class="textco"> <p>Connectez vous pour pouvoir accéder à vos <br> informations et/ou à moodle.</p></div>
    
     <div class="Rectangle_arrondi_2"><input type="text" name="identifiantU"><br><br></div>
      <div class="Rectangle_arrondi_1"> <input type="password" name="mdpU"><br><br></div>
