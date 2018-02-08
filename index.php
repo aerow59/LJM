@@ -134,7 +134,7 @@
             </div>
             <div class="page_connexion">
                 <div class="contenu_connexion">
-                    
+                    <?php include('pageConnexion.php'); ?>
                 </div>    
             </div>
             <div class="menuouvrir">

@@ -32,7 +32,7 @@ body
 
 /*FIN TRANSFORMATION JQUERY*/
 
-.test{
+.page_connexion{
     color: white;
     position: absolute;
     display: flex;
@@ -43,10 +43,11 @@ body
     background-color: rgba(255, 255, 255, 0.75);
 }
 
-.test h2{
+.contenu_connexion form{
     flex-direction: column;
     width: 500px;    
-    margin-left: 100px;   
+    margin-left: 100px;
+    color: black;
 }
 
 .back
@@ -74,7 +75,7 @@ nav
 {
     display: flex;
     background-color:#1b435c;
-     opacity: 0.7;
+    opacity: 0.8;
     width: 90px;
     height: 100%;
     align-self: flex-start;
