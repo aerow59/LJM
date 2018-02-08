@@ -6,7 +6,7 @@
         <title>Lycée Jean Moulin</title>
     </head>
     <body>
-        <img class="logoisaac" src="" alt="">
+        <img class="logoisaac" src="images/logojeanmoulin.png" alt="">
         <img class="back" src="images/Sans%20titrem.png" alt="">
         <div class="contenu">
             <nav>
@@ -33,22 +33,7 @@
                     <div>
                         <img src="images/casquette.png" alt="">
                     </div>
-                    <div class="descrcasquette">
-                        <p></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae itaque illum minima dolorum veniam inventore animi, voluptas eaque quod in nihil laborum vel dignissimos quibusdam expedita impedit, ab, quae omnis?</p>
-                        <div class="commandecasq">
-                            <div class="prixcasq">
-                                <P></P>
-                                <p></p>
-                                <p></p>
-                            </div> 
-                            <div class="quantcasq">
-                                <p></p>
-                                <input type="number" name="Nombre" value="0">
-                            </div>
-                            <input type="button" name="Panier" value="AJOUTER AU PANIER">           
-                        </div>
-                    </div>
+                    
                 </div>
                 <div class="pagesac">
                     <div class="fermersac">
@@ -90,14 +75,7 @@
                                 <p></p>
                                 <p></p>
                             </div>
-                            <div class="selectverre">
-                                <p></p>
-                                <select name="select">
-                                    <option></option>
-                                    <option></option>
-                                    <option></option>
-                                </select>
-                            </div> 
+                            
                             <div class="quantverre">
                                 <p></p>
                                 <input type="number" name="Nombre" value="0">
@@ -166,7 +144,7 @@
                 <img src="images/boutonfermer.png" alt="" title="Fermer destinations">
             </div>
             <div class="menu">
-              <?php include('php/getM.php'); ?>
+              
             </div>
             <div class="mic">
                 <img class="imgmic1" src="images/mic.png" alt="" title="Recherche vocale">

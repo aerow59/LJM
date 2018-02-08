@@ -73,7 +73,8 @@ body
 nav
 {
     display: flex;
-    background-color: #1a1a1a;
+    background-color:#1b435c;
+     opacity: 0.7;
     width: 90px;
     height: 100%;
     align-self: flex-start;
@@ -117,6 +118,8 @@ nav
     transition: 0.3s;
     z-index: 1000;
     cursor: pointer;
+    
+   
 }
 .home img, .panier img, .calend img, .info img
 {
@@ -154,9 +157,10 @@ nav
     height: 100%;
     width: 275px;
     z-index: 3000;
-    background-color:rgba(0, 0, 0, 0.69);
+    background-color:#1b435c;
     transform: translateX(300px);
     transition-duration: 0.3s;
+    opacity: 0.7;
 }
 .menu a
 {
