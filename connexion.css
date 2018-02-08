@@ -48,4 +48,37 @@ and open the template in the editor.
   z-index: 45;
 }
 
+.Ellipse_1 {
+  border-radius: 50%;
+  background-color: rgb(222, 33, 115);
+  position: absolute;
+  left: 372px;
+  top: 760px;
+  width: 64px;
+  height: 64px;
+  z-index: 53;
+}
+
+.Ellipse_2 {
+  border-radius: 50%;
+  background-color: rgb(0, 155, 221);
+  position: absolute;
+  left: 756px;
+  top: 760px;
+  width: 64px;
+  height: 64px;
+  z-index: 54;
+}
+
+.Ellipse_3 {
+  border-radius: 50%;
+  background-color: rgb(252, 195, 0);
+  position: absolute;
+  left: 1140px;
+  top: 760px;
+  width: 64px;
+  height: 64px;
+  z-index: 55;
+}
+
 
