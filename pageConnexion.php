@@ -3,8 +3,8 @@
     <div class="connexion"><h2>Connexion</h2></div>
     <div class="textco"> <p>Connectez vous pour pouvoir accéder à vos <br> informations et/ou à moodle.</p></div>
    
-    <div class="Rectangle_arrondi_2"><input type="text" name="identifiantU"><br><br></div>
-     <div class="Rectangle_arrondi_1"> <input type="password" name="mdpU"><br><br></div>
+     <input class="Rectangle_arrondi_2" type="text" name="identifiantU"><br><br>
+     <input class="Rectangle_arrondi_1" type="password" name="mdpU"><br><br>
    
      <div class="aide">
      <div class="Ellipse_1">    <img src="images/cercleViolet.png">Pas encore inscrit ?</div>
