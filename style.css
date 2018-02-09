@@ -32,6 +32,16 @@ body
 
 /*FIN TRANSFORMATION JQUERY*/
 
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-family: "Verdana";
+}
+
 .page_connexion{
     color: white;
     position: absolute;
