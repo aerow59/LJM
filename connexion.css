@@ -8,7 +8,7 @@ and open the template in the editor.
     Author     : Nicolas
 */
 
-input{
+.Rectangle_arrondi_2 {
   border-width: 1px;
   border-color: rgb(125, 125, 125);
   border-style: solid;
@@ -20,6 +20,20 @@ input{
   width: 600px;
   height: 80px;
   z-index: 27;
+}
+
+ .Rectangle_arrondi_1 {
+  border-width: 1px;
+  border-color: rgb(125, 125, 125);
+  border-style: solid;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 372px;
+  top: 450px;
+  width: 600px;
+  height: 80px;
+  z-index: 28;
 }
 
 .connexion {
