@@ -9,6 +9,7 @@
         <img class="logoisaac" src="images/logojeanmoulin.png" alt="">
         <img class="back" src="images/Sans%20titrem.png" alt="">
         <div class="contenu">
+            <!-- nav GAUCHE-->
             <nav>
                 <img class="iconisaac" src="" alt="">
                 <div class="home" title="Accueil">
@@ -24,6 +25,7 @@
                     <img src="images/info.png" alt="">
                 </div>
             </nav>
+            <!--FIN NAV GAUCHE-->
             <div class="shop">
                 <p class="produits"></p>                          
                 <div class="pagecasquette">
@@ -85,17 +87,23 @@
                     </div>
                 </div>
             </div>
+            <!--ACTUALITES-->
             <div class="expositions">
                 <?php include('evenements.php'); ?>
             </div>
+            <!--INFORMATION-->
             <div class="informations">
                 <?php include('pageInformation.php'); ?>
             </div>
+            <!--FIN INFORMATION-->
+            <!--Connexion-->
             <div class="page_connexion">
                 <div class="contenu_connexion">
                     <?php include('pageConnexion.php'); ?>
                 </div>    
             </div>
+            <!--FIN CONNEXION-->
+            <!--MENU DROIT-->
             <div class="menuouvrir">
                 <img src="images/boutonouvrir.png" alt="" title="Ouvrir destinations">
             </div>
@@ -105,6 +113,7 @@
             <div class="menu">
               <?php include('menuDroite.php'); ?>
             </div>
+            <!--FIN MENU-->
             <div class="mic">
                 <img class="imgmic1" src="images/mic.png" alt="" title="Recherche vocale">
                 <img class="imgmic2" src="images/mic.png" alt="" title="Recherche vocale">
