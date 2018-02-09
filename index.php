@@ -34,58 +34,8 @@
                     </div>
                     <div>
                         <img src="images/casquette.png" alt="">
-                    </div>
-                    
-                </div>
-                <div class="pagesac">
-                    <div class="fermersac">
-                        <img src="images/retour.png" title="Retour au magasin">
-                    </div>
-                    <div>
-                        <img src="images/sac.png" alt="">
-                    </div>
-                    <div class="descrsac">
-                        <p></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
-                        <div class="commandesac">
-                            <div class="prixsac">
-                                <P></P>
-                                <p></p>
-                                <p></p>
-                            </div> 
-                            <div class="quantsac">
-                                <p></p>
-                                <input type="number" name="Nombre" value="0">
-                            </div>
-                            <input type="button" name="Panier" value="AJOUTER AU PANIER">           
-                        </div>
-                    </div>
-                </div>
-                <div class="pageverre">
-                    <div class="fermerverre">
-                        <img src="images/retour.png" title="Retour au magasin">
-                    </div>
-                    <div>
-                        <img src="images/verres.png" alt="">
-                    </div>
-                    <div class="descrverre">
-                        <p></p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae itaque illum minima dolorum veniam inventore animi, voluptas eaque quod in nihil laborum vel dignissimos quibusdam expedita impedit, ab, quae omnis?</p>
-                        <div class="commandeverre">
-                            <div class="prixverre">
-                                <P></P>
-                                <p></p>
-                                <p></p>
-                            </div>
-                            
-                            <div class="quantverre">
-                                <p></p>
-                                <input type="number" name="Nombre" value="0">
-                            </div>
-                            <input type="button" name="Panier" value="AJOUTER AU PANIER">           
-                        </div>
-                    </div>
-                </div>
+                    </div>                 
+                </div>              
             </div>
             <!--ACTUALITES-->
             <div class="expositions">
