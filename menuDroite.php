@@ -4,11 +4,13 @@ require('php/configBDD.php');
 
 $requete = $bdd->prepare("SELECT * FROM menucentral");
 $requete->execute();
+$idMenuDroite = 0;
 
 ?>
 <lu><?php
     while($donnees = $requete->fetch()){
-        ?><li><a href="<?php echo$donnees['redirectionMenuCentral']; ?>"><?php echo$donnees['nomLienMenuCentral']; ?></a></li><br><?php
+        ?><li class="<?php echo $idMenuDroite ?>"><?php echo $donnees['nomLienMenuCentral']; ?></li><br><?php
+        $idMenuDroite = $idMenuDroite+1;      
     }
 ?>
 </lu>

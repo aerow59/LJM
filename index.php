@@ -2,7 +2,7 @@
 <html lang="fr">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
         <title>Lycée Jean Moulin</title>
     </head>
     <body>
@@ -46,7 +46,7 @@
             <div class="informations">
                 <?php include('pageInformation.php'); ?>
             </div>
-            <!--FIN INFORMATION-->
+            <!--FIN INFORMATION-->                     
             
             <!--Connexion-->
             <div class="page_connexion">
@@ -67,6 +67,11 @@
               <?php include('menuDroite.php'); ?>
             </div>
             <!--FIN MENU-->
+            
+            <!--PAGE GRETA-->
+            <div class="GRETA">
+                <?php include('greta.php'); ?>
+            </div>
             
             <div class="mic">
                 <img class="imgmic1" src="images/mic.png" alt="" title="Recherche vocale">

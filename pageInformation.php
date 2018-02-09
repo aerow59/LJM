@@ -13,7 +13,7 @@
             </div>
     </div>
     <div class="skyjet">
-        h5>PLAN DU LYCEE</h5>
+        <h5>PLAN DU LYCEE</h5>
             <div class="skyjetdes">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2527.8873179015945!2d3.171414215423497!3d50.68491657950842!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c328f3d00d06c1%3A0xb4295bc612cfa9be!2sLyc%C3%A9e+Jean+Moulin+de+Roubaix!5e0!3m2!1sfr!2sfr!4v1517924232213" width="600" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>                        
             </div>

@@ -30,6 +30,8 @@ $(document).ready(function () {
         produits = $('.produits'),
         fermercasq = $('.fermercasq'),
         fermersac = $('.fermersac'),
+        boutonMenugreta = $('.0'),
+        pageGreta = $('.GRETA'),
         page_connexion = $('.page_connexion'),
         fermerverre = $('.fermerverre');
 
@@ -69,6 +71,7 @@ $(document).ready(function () {
         page_connexion.css('transform','translateX(0)').css('transition','0.3s');     
         expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
         infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        pageGreta.css('transform', 'translateX(2000px)').css('transition', '0s');
         mic1.hide();
         mic2.hide();
     });
@@ -87,6 +90,7 @@ $(document).ready(function () {
         page_connexion.css('transform','translateX(-2000px)').css('transition','0s');    
         shop.css('transform', 'translateX(-2000px)').css('transition', '0s');
         infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        pageGreta.css('transform', 'translateX(2000px)').css('transition', '0s');
         mic1.hide();
         mic2.hide();
     });
@@ -104,6 +108,7 @@ $(document).ready(function () {
         page_connexion.css('transform','translateX(-2000px)').css('transition','0s');  
         expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
         shop.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        pageGreta.css('transform', 'translateX(2000px)').css('transition', '0');
         mic1.hide();
         mic2.hide();
     });
@@ -121,6 +126,7 @@ $(document).ready(function () {
         infos.css('transform', 'translateX(-2000px)');
         expo.css('transform', 'translateX(-2000px)');
         shop.css('transform', 'translateX(-2000px)');
+        pageGreta.css('transform', 'translateX(2000px)').css('transition', '0');
         mic1.show();
         mic2.hide();
     });
@@ -138,6 +144,7 @@ $(document).ready(function () {
         infos.css('transform', 'translateX(-2000px)');
         expo.css('transform', 'translateX(-2000px)');
         shop.css('transform', 'translateX(-2000px)');
+        pageGreta.css('transform', 'translateX(2000px)').css('transition', '0');
         mic1.show();
         mic2.hide();
     });
@@ -216,4 +223,10 @@ $(document).ready(function () {
         audioElement.setAttribute('src', 'audio/vimdone.mp3');
         audioElement.setAttribute('autoplay', 'autoplay');
     });
+    
+    boutonMenugreta.click(function(){
+        pageGreta.css('transform', 'translateX(0)').css('transition', '0.3s');
+        logo.addClass('transformlogo1').removeClass('transformlogo2');
+    });
+    
 });
