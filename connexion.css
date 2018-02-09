@@ -48,6 +48,34 @@ and open the template in the editor.
   z-index: 45;
 }
 
+.boutonvalider {
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 15px;
+  background-color: rgb(23, 39, 150);
+  position: absolute;
+  left: 1000px;
+  top: 400px;
+  
+  height:30px;
+  z-index: 28;
+}
+
+.boutonvalider:hover {
+  border-width: 1px;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-radius: 15px;
+  background-color: rgb(23, 39, 240);
+  position: absolute;
+  left: 1000px;
+  top: 400px;
+ 
+  height:30px;
+  z-index: 28;
+}
+
 .textco {
   font-size: 20px;
   font-family: "Verdana";
