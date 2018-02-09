@@ -5,7 +5,7 @@
     <form method="POST" action="#">
         <input class="Rectangle_arrondi_2" type="text" name="identifiantU"><br><br>
         <input class="Rectangle_arrondi_1" type="password" name="mdpU"><br><br>
-        <input type="submit" value="Valider">
+        <input class="boutonvalider" type="image" src="images/validerblanc.png" value="Valider"> 
     </form>
     <div class="aide">
         <div class="Ellipse_1">    <img src="images/cercleViolet.png">Pas encore inscrit ?</div>
