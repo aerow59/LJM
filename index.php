@@ -9,6 +9,7 @@
         <img class="logoisaac" src="images/logojeanmoulin.png" alt="">
         <img class="back" src="images/Sans%20titrem.png" alt="">
         <div class="contenu">
+            <!-- nav GAUCHE-->
             <nav>
                 <img class="iconisaac" src="" alt="">
                 <div class="home" title="Accueil">
@@ -24,6 +25,7 @@
                     <img src="images/info.png" alt="">
                 </div>
             </nav>
+            <!--FIN NAV GAUCHE-->
             <div class="shop">
                 <p class="produits"></p>                          
                 <div class="pagecasquette">
@@ -85,9 +87,10 @@
                     </div>
                 </div>
             </div>
+            <!--ACTUALITES-->
             <div class="expositions">
                 <div class="textexpo">
-                    <h1>Exposition</span></h1>
+                    <h1>Actualités</span></h1>
                     <p>Du 07 au 13 août 2018 | </p>
                     <h2><br></h2>
                     <p>Venez découvrir comment nos ancêtres ont explorés notre système solaire, les fabuleuses avancées technologiques qui ont permis  d'accomplir cet exploit remarquable pour l'epoque.<br><br>Plongez dans le quotidien difficile des hommes et des femmes qui ont faconnés notre présent et à qui nous devons le monde tel qu'il est aujourd'hui.<br><br>Isaac vous permet d'explorer le système solaire et de poser le pied sur des mondes fascinants pour la première fois dans l'histoire de l'humantié et vous offre la possiblité de rendre un vibrant hommage aux pionniers qui ont permis d'écrire cette fabuleuse histoire aujourd'hui, avec vous.
@@ -109,6 +112,7 @@
                     </div>
                 </div>
             </div>
+            <!--INFORMATION-->
             <div class="informations">
                 <div class="qui">
                     <h3>QUI SOMMES NOUS?</h3>
@@ -132,11 +136,15 @@
                     </div>
                 </div>   
             </div>
+            <!--FIN INFORMATION-->
+            <!--Connexion-->
             <div class="page_connexion">
                 <div class="contenu_connexion">
                     <?php include('pageConnexion.php'); ?>
                 </div>    
             </div>
+            <!--FIN CONNEXION-->
+            <!--MENU DROIT-->
             <div class="menuouvrir">
                 <img src="images/boutonouvrir.png" alt="" title="Ouvrir destinations">
             </div>
@@ -146,6 +154,7 @@
             <div class="menu">
               
             </div>
+            <!--FIN MENU-->
             <div class="mic">
                 <img class="imgmic1" src="images/mic.png" alt="" title="Recherche vocale">
                 <img class="imgmic2" src="images/mic.png" alt="" title="Recherche vocale">
