@@ -8,6 +8,7 @@ and open the template in the editor.
     Author     : Nicolas
 */
 
+
 .Rectangle_arrondi_2 {
   border-width: 1px;
   border-color: rgb(125, 125, 125);
@@ -38,7 +39,7 @@ and open the template in the editor.
 
 .connexion {
   font-size: 72px;
-  font-family: "Century Gothic";
+  font-family: 'Quicksand', sans-serif;
   color: rgb(23, 39, 138);
   line-height: 1.2;
   text-align: center;

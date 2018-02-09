@@ -1,3 +1,6 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+</style>
 <form method="POST" action="#">
     <link rel="stylesheet" href="connexion.css">
     <div class="connexion"><h2>Connexion</h2></div>
