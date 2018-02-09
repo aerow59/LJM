@@ -1,4 +1,4 @@
-.GRETA{
+.FORMATION{
     background-color: blue;
     position: absolute;
     display: flex;
@@ -9,7 +9,7 @@
     background-color: rgba(255, 255, 255, 0.75);
 }
 
-.titreGreta{
+.titreFormation{
     margin-top: 0px;
     flex-direction: column;    
     margin-left: 100px;

@@ -72,6 +72,24 @@
             <div class="GRETA">
                 <?php include('greta.php'); ?>
             </div>
+            <!--FIN PAGE GRETA-->
+            
+            <!--PAGE FORMATION-->
+            <div class="FORMATION">
+                <?php include('formation.php'); ?>
+            </div>
+            <!--FIN PAGE FORMATION-->
+            
+            <!--PAGE UFA-->
+            <div class="UFA">
+                <?php include("ufa.php"); ?>
+            </div>
+            <!--FIN PAGE UFA-->
+            
+            <!--PAGE ¨PARTENARIAT-->
+            <div class="PARTENARIAT">
+                <?php include("partenariat.php"); ?>
+            </div>
             
             <div class="mic">
                 <img class="imgmic1" src="images/mic.png" alt="" title="Recherche vocale">
