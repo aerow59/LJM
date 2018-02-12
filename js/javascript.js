@@ -39,6 +39,7 @@ $(document).ready(function () {
         pageUfa = $('.UFA'),
         boutonMenuPartenariat = $('.3'),
         pagePartenariat = $('.PARTENARIAT'),
+        boutonMenuCDI = $('.4'),
         fermerverre = $('.fermerverre');
 
     menuouvrir.click(function () {
@@ -79,8 +80,8 @@ $(document).ready(function () {
         infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
         pageGreta.css('transform', 'translateX(2000px)').css('transition', '0s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0s');
-        pageUfa.css('transform','translateX(2000px)').css('transition','0s');
-        pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
+        pageUfa.css('transform','translateX(2000px)').css('transition','0s');   
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0');      
         mic1.hide();
         mic2.hide();
     });
@@ -101,8 +102,8 @@ $(document).ready(function () {
         infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
         pageGreta.css('transform', 'translateX(2000px)').css('transition', '0s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0s');
-        pageUfa.css('transform','translateX(2000px)').css('transition','0s');
-        pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
+        pageUfa.css('transform','translateX(2000px)').css('transition','0s');       
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0');       
         mic1.hide();
         mic2.hide();
     });
@@ -122,8 +123,8 @@ $(document).ready(function () {
         shop.css('transform', 'translateX(-2000px)').css('transition', '0s');
         pageGreta.css('transform', 'translateX(2000px)').css('transition', '0s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0s');
-        pageUfa.css('transform','translateX(2000px)').css('transition','0s');
-        pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
+        pageUfa.css('transform','translateX(2000px)').css('transition','0s');        
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0');        
         mic1.hide();
         mic2.hide();
     });
@@ -144,7 +145,7 @@ $(document).ready(function () {
         pageGreta.css('transform', 'translateX(2000px)').css('transition', '0s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0s');
-        pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0');             
         mic1.show();
         mic2.hide();
     });
@@ -164,8 +165,8 @@ $(document).ready(function () {
         shop.css('transform', 'translateX(-2000px)');
         pageGreta.css('transform', 'translateX(2000px)').css('transition', '0s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0s');
-        pageUfa.css('transform','translateX(2000px)').css('transition','0s');
-        pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
+        pageUfa.css('transform','translateX(2000px)').css('transition','0s');      
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0');       
         mic1.show();
         mic2.hide();
     });
@@ -247,35 +248,51 @@ $(document).ready(function () {
     });
     
     boutonMenugreta.click(function(){
+        expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        page_connexion.css('transform','translateX(-2000px)');
+        shop.css('transform', 'translateX(-2000px)');
         pageUfa.css('transform','translateX(2000px)').css('transition','0s');
-        pageFormation.css('transform','translateX(2000px)').css('transition','0s');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0s');      
         pageGreta.css('transform', 'translateX(0)').css('transition', '0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
         logo.addClass('transformlogo1').removeClass('transformlogo2');
     });
     
     boutonMenuFormation.click(function(){
+        expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        page_connexion.css('transform','translateX(-2000px)');
+        shop.css('transform', 'translateX(-2000px)');
         pageUfa.css('transform','translateX(2000px)').css('transition','0s');
         pageGreta.css('transform','translateX(2000px)').css('transition','0s');    
-        pageFormation.css('transform','translateX(0)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(0)').css('transition','0.3s');     
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
         logo.addClass('transformlogo1').removeClass('transformLogo2');
     });
     
     boutonMenuUfa.click(function(){
+        expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        page_connexion.css('transform','translateX(-2000px)');
+        shop.css('transform', 'translateX(-2000px)');
         pageGreta.css('transform','translateX(2000px)').css('transition','0s');    
-        pageFormation.css('transform','translateX(2000px)').css('transition','0s');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0s');               
         pageUfa.css('transform','translateX(0)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
         logo.addClass('transformlogo1').removeClass('transformLogo2');
     });
     
     boutonMenuPartenariat.click(function(){
+        expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        page_connexion.css('transform','translateX(-2000px)');
+        shop.css('transform', 'translateX(-2000px)');
         pageGreta.css('transform','translateX(2000px)').css('transition','0s');    
         pageFormation.css('transform','translateX(2000px)').css('transition','0s');
-        pageUfa.css('transform','translateX(2000px)').css('transition','0');
+        pageUfa.css('transform','translateX(2000px)').css('transition','0');               
         pagePartenariat.css('transform','translateX(0)').css('transition','0.3s');
         logo.addClass('transformlogo1').removeClass('transformLogo2');
     });
-    
+       
 });
