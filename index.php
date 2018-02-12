@@ -89,7 +89,9 @@
             <!--PAGE ¨PARTENARIAT-->
             <div class="PARTENARIAT">
                 <?php include("partenariat.php"); ?>
-            </div>
+            </div>    
+            
+       
             
             <div class="mic">
                 <img class="imgmic1" src="images/mic.png" alt="" title="Recherche vocale">
