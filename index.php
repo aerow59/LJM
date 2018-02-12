@@ -6,6 +6,7 @@
         <title>Lycée Jean Moulin</title>
     </head>
     <body>
+        <?php session_start(); ?>
         <img class="logoisaac" src="images/logojeanmoulin.png" alt="">
         <img class="back" src="images/Sans%20titrem.png" alt="">
         <div class="contenu">
@@ -67,7 +68,7 @@
               <?php include('menuDroite.php'); ?>
             </div>
             <!--FIN MENU-->
-            
+
             <!--PAGE GRETA-->
             <div class="GRETA">
                 <?php include('greta.php'); ?>
@@ -90,8 +91,9 @@
             <div class="PARTENARIAT">
                 <?php include("partenariat.php"); ?>
             </div>    
+            <!--FIN PAGE PARTENARIAT-->
             
-       
+            
             
             <div class="mic">
                 <img class="imgmic1" src="images/mic.png" alt="" title="Recherche vocale">
