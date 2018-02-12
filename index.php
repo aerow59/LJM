@@ -91,6 +91,14 @@
                 <?php include("partenariat.php"); ?>
             </div>
             
+            <div class="CDI">
+                <?php include("cdi.php"); ?>
+            </div>
+            
+            <div class="DEPOSER_STAGE">
+                <?php include('depot_Offre_Stage.php'); ?>
+            </div>
+            
             <div class="mic">
                 <img class="imgmic1" src="images/mic.png" alt="" title="Recherche vocale">
                 <img class="imgmic2" src="images/mic.png" alt="" title="Recherche vocale">
