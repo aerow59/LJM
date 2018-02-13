@@ -6,11 +6,40 @@
 <div class="carre2"> </div>
 <div class="carre3"> </div>
 
-<?php require ('php/configBDD.php'); 
-$requeteAffichFormation =$bdd->prepare("SELECT nomFormation FROM formation");
-$requeteAffichFormation->execute();
 
-while($donneesAffichFormation = $requeteAffichFormation->fetch())
-{
-    echo $donneesAffichFormation['nomFormation'];?><br><?php
-}
+<?php require ('php/configBDD.php'); 
+    /*
+     * Affiche les formations Pro
+     */
+    echo "Formation Pro : ";?><br><?php
+    $requeteAffichFormationPro =$bdd->prepare("SELECT nomFormation FROM formation f INNER JOIN typeformation tf ON f.idTypeFormation=tf.idTypeFormation WHERE nomTypeFormation = 'Professionnelles'");
+    $requeteAffichFormationPro->execute();
+
+    while($donneesAffichFormationPro = $requeteAffichFormationPro->fetch())
+    {
+        echo $donneesAffichFormationPro['nomFormation']; ?><br><?php
+    }
+    
+    /*
+     *Affiche les formations generales et techno 
+     */
+    echo "Formation GT : ";?><br><?php
+    $requeteAffichFormationGT =$bdd->prepare("SELECT nomFormation FROM formation f INNER JOIN typeformation tf ON f.idTypeFormation=tf.idTypeFormation WHERE nomTypeFormation = 'Générales et technologiques'");
+    $requeteAffichFormationGT->execute();
+
+    while($donneesAffichFormationGT = $requeteAffichFormationGT->fetch())
+    {
+        echo $donneesAffichFormationGT['nomFormation']; ?><br><?php
+    }
+    
+    /*
+     *Affiche les formations supérieurs
+     */
+    echo "Formation Supérieurs : ";?><br><?php
+    $requeteAffichFormationSup =$bdd->prepare("SELECT nomFormation FROM formation f INNER JOIN typeformation tf ON f.idTypeFormation=tf.idTypeFormation WHERE nomTypeFormation = 'Supérieurs'");
+    $requeteAffichFormationSup->execute();
+
+    while($donneesAffichFormationSup = $requeteAffichFormationSup->fetch())
+    {
+        echo $donneesAffichFormationSup['nomFormation']; ?><br><?php
+    }
