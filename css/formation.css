@@ -22,13 +22,14 @@
   position: absolute;
   left: 400px;
   top: 200px;
-  width: 243px;
+  width: 260px;
   height: 350px;
   z-index: 170;
 }
 
 .carre2 {
   background-color: rgb(255, 255, 255);
+  
   position: absolute;
   left: 700px;
   top: 200px;
@@ -47,3 +48,44 @@
   height: 350px;
   z-index: 166;
 }
+
+.PROFESSIONNELLES {
+  font-size: 30px;
+  font-family: "Century Gothic";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: center;
+  -moz-transform: matrix( 1,0,0,1.00037803123524,0,0);
+  -webkit-transform: matrix( 1,0,0,1.00037803123524,0,0);
+  -ms-transform: matrix( 1,0,0,1.00037803123524,0,0);
+  position: absolute;
+  left: 350.039px;
+  top: 470.5px;
+  z-index: 173;
+}
+
+.GENERALES_ET_TECHNOLOGIQUES {
+  font-size: 22px;
+  font-family: "Century Gothic";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 1.36089667151019,0,0,1.36652719502985,0,0);
+  -webkit-transform: matrix( 1.36089667151019,0,0,1.36652719502985,0,0);
+  -ms-transform: matrix( 1.36089667151019,0,0,1.36652719502985,0,0);
+  position: absolute;
+  left: 1230.493px;
+  top: 406.775px;
+  z-index: 182;
+}
+
+.trait1 {
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+  left: 350px;
+  top: 515px;
+  width: 58px;
+  height: 3px;
+  z-index: 172;
+}
+

@@ -19,9 +19,12 @@ if(!isset($_SESSION['nomUser']) && !isset($_SESSION['prenomUser'])){?>
 <?php } 
 else{?>
     <div class="titreCoPers"><h2>Vous etes connecté</h2></div>
-    
-    
-    
+    <div class="connexion">
+        <h2>Nom : <?php echo $_SESSION['nomUser']; ?></h2>
+        <h2>Prenom : <?php echo $_SESSION['prenomUser']; ?></h2>
+        <h2>Niveau : <?php echo $_SESSION['levelUser']; ?></h2>
+        <a href="http://www.jean-moulin-roubaix.savoirsnumeriques5962.fr"><h2>Acceder a l'ENT</h2></a>
+    </div>    
 <?php }
 
 
