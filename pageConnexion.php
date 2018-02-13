@@ -23,7 +23,7 @@ else{?>
         <h2>Nom : <?php echo $_SESSION['nomUser']; ?></h2>
         <h2>Prenom : <?php echo $_SESSION['prenomUser']; ?></h2>
         <h2>Niveau : <?php echo $_SESSION['levelUser']; ?></h2>
-        <a href="jean-moulin-roubaix.savoirsnumeriques5962.fr"><h2>Acceder a l'ENT</h2></a>
+        <a href="http://www.jean-moulin-roubaix.savoirsnumeriques5962.fr"><h2>Acceder a l'ENT</h2></a>
     </div>    
 <?php }
 
