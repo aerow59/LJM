@@ -19,7 +19,7 @@ if(!isset($_SESSION['nomUser']) && !isset($_SESSION['prenomUser'])){?>
 <?php } 
 else{?>
     <div class="titreCoPers"><h2>Vous etes connecté</h2></div>
-    <div class="connexion">
+    <div class="connexion3">
         <h2>Nom : <?php echo $_SESSION['nomUser']; ?></h2>
         <h2>Prenom : <?php echo $_SESSION['prenomUser']; ?></h2>
         <h2>Niveau : <?php echo $_SESSION['levelUser']; ?></h2>

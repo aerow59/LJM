@@ -13,7 +13,7 @@ $requete->execute();
 
 while($donneesReq = $requete->fetch()){
     $_SESSION['nomUser'] = $donneesReq['nomUser'];
-    $_SESSION['prenomUser'] = $donneesReq['prenomMenu'];
+    $_SESSION['prenomUser'] = $donneesReq['prenomUser'];
     $_SESSION['levelUser'] = $donneesReq['nomLevel'];
 }
 
