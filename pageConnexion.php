@@ -24,7 +24,17 @@ else{?>
         <h2>Prenom : <?php echo $_SESSION['prenomUser']; ?></h2>
         <h2>Niveau : <?php echo $_SESSION['levelUser']; ?></h2>
         <a href="http://www.jean-moulin-roubaix.savoirsnumeriques5962.fr"><h2>Acceder a l'ENT</h2></a>
+        <?php 
+        echo "Nike ta mère";
+        if($_SESSION['levelUser']==4)
+        {
+            echo "Level User";
+        }
+    ?>
     </div>    
+    
+    
+    
 <?php }
 
 
