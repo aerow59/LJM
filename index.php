@@ -86,13 +86,31 @@
                 <?php include("ufa.php"); ?>
             </div>
             <!--FIN PAGE UFA-->
-            
-            
+                        
             <!--PAGE ¨PARTENARIAT-->
             <div class="PARTENARIAT">
                 <?php include("partenariat.php"); ?>
             </div>    
             <!--FIN PAGE PARTENARIAT-->
+            
+            <!--PAGE CDI-->
+            <div class="CDI">
+                <?php include('cdi.php'); ?>
+            </div>
+            <!--FIN PAGE CDI-->
+            
+            <!--PAGE DEPOT STAGE-->
+            <div class="DEPOT_STAGE">
+                <?php include('depot_Offre_Stage.php'); ?>
+            </div>
+            <!--FIN PAGE DEPOT STAGE-->
+            
+            <!--PAGE CONTACT-->
+            <div class="CONTACT">
+                <?php include('contact.php'); ?>
+            </div>
+            <!--FIN PAGE CONTACT-->
+            
             <div class="mic">
                 <img class="imgmic1" src="images/mic.png" alt="" title="Recherche vocale">
                 <img class="imgmic2" src="images/mic.png" alt="" title="Recherche vocale">
