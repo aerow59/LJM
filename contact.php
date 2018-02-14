@@ -1,3 +1,7 @@
 <link rel="stylesheet" href="css/contact.css">
-<div class="titreDepotStage"><h3>Nous contacter </h3></div>
+<form method="contactEnvoi.php" action="POST">
+    <br><br><br><br><br>
+    <h4>Ce formulaire vous permet de poser vos questions : </h4>
+    
+</form>
 
