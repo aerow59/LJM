@@ -112,17 +112,16 @@ nav
 .logoisaac
 {
     position: absolute;
-    width: 300px;
-    margin-left: 180px;
-    margin-top: 30px;
-    z-index: 2000;
+    width: 283px;   
+    margin-top: 0px;
+    z-index: 30000;
 }
 .home, .panier, .calend, .info
 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 50px;
     width: 100%;
     height: 70px;
     align-self: center;
