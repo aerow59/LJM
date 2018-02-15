@@ -631,11 +631,11 @@ h2
 {
     font-family: century gothic;
     color: #17278a;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: lighter;
     white-space: nowrap;
     margin-top: 100px;
-    margin-left: 100px;
+    margin-left: 600px;
 }
 .textexpo p:nth-child(4)
 {
@@ -827,3 +827,4 @@ lu{
  position: relative;
 }
 
+  
