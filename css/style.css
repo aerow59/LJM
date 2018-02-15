@@ -128,8 +128,6 @@ nav
     transition: 0.3s;
     z-index: 1000;
     cursor: pointer;
-    
-   
 }
 .home img, .panier img, .calend img, .info img
 {
@@ -762,10 +760,6 @@ h2
     padding: 20px 50px 50px 50px ;
     height: 700px;
     transition: 0.3s;
-}
-.qui:hover, .engine:hover, .skyjet:hover
-{
-    transform: scale(1.02);
 }
 h3
 {

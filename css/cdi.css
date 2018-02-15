@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 .CDI{
     background-color: blue;
     position: absolute;
@@ -7,4 +9,29 @@
     width: 100%;
     height: 100vh;
     background-color: rgba(255, 255, 255, 0.75);
+}
+
+h3{
+    font-family: 'Quicksand';
+    margin-left: 600px;
+}
+
+#affichContenuDivUne,#affichContenuDivUne2{
+    margin-left: -500px;
+    margin-top: 90px;
+    height: 300px;
+    width: 500px;
+    background-color: grey;
+}
+
+label{
+    margin-left: 30px;
+    margin-top: 30px;
+    font-family: 'Quicksand';
+    color: white;
+}
+
+SELECT{
+    margin-top: 30px;
+    font-family: 'Quicksand';
 }
