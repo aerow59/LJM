@@ -26,7 +26,7 @@ else{?>
         echo "Nike ta mère";
         if($_SESSION['levelUser']==4)
         {
-            echo "Level User";
+            echo "level Administrateur";
         }
     ?>
        
