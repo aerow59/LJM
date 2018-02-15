@@ -27,17 +27,7 @@
                 </div>
             </nav>
             <!--FIN NAV GAUCHE-->
-            <div class="shop">
-                <p class="produits"></p>                          
-                <div class="pagecasquette">
-                    <div class="fermercasq">
-                        <img src="" title="Retour au magasin">
-                    </div>
-                    <div>
-                        <img src="images/casquette.png" alt="">
-                    </div>                 
-                </div>              
-            </div>
+            
             <!--ACTUALITES-->
             <div class="expositions">
                 <?php include('evenements.php'); ?>

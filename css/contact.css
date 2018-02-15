@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 .CONTACT{
     background-color: blue;
     position: absolute;
@@ -11,4 +13,26 @@
 
 form{
     margin-left: 100px;
+    font-family: 'Quicksand';
+}
+
+h4{
+    font-family: 'Quicksand';
+}
+
+input{
+    border-radius: 2px;
+    font-family: 'Quicksand';
+}
+
+textarea{
+    border-radius: 2px;
+    font-family: 'Quicksand';
+}
+
+.validerEnvoie{
+    font-family: 'Quicksand';
+    width: 50%;
+    background-color:#1b435c;
+    color: white;
 }

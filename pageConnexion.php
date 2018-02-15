@@ -1,6 +1,3 @@
-<style>
-@import url('https://fonts.googleapis.com/css?family=Quicksand');
-</style>
 <?php 
 if(!isset($_SESSION['nomUser']) && !isset($_SESSION['prenomUser'])){?>
    <form method="POST" action="php/connexionPhp.php">
