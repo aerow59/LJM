@@ -15,7 +15,6 @@
         {
             echo $donneesAffichFormationSup['nomFormation']; ?><br><?php
         }?>
-        <button>Ajouter une formation Supérieur</button>
     </div>
 
     <div class="generalestechno">
@@ -27,7 +26,6 @@
         {
             echo $donneesAffichFormationGT['nomFormation']; ?><br><?php
         }?>
-        <button>Ajouter une formation Générale et Technologique</button>
     </div>
     <div class="pro"> 
         <?php
@@ -39,7 +37,7 @@
             echo $donneesAffichFormationPro['nomFormation']; ?><br><?php
         }?>
             
-            <button>Ajouter une formation Professionnelles</button>
+            
     </div>
 
 

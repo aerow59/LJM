@@ -10,4 +10,3 @@
         {
             echo $donneesAffichFormationUFA['nomFormation']; ?><br><?php
         }?>
-            <button>Ajouter une formation (UFA)</button>
