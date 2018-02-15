@@ -28,7 +28,7 @@
             </nav>
             <!--FIN NAV GAUCHE-->
             <div class="slogan">
-                <p>"Incubateur de réussite"</p>
+                <img src="images/phrase.gif"/>
             </div>
             <!--ACTUALITES-->
             <div class="expositions">
