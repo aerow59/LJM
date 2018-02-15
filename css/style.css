@@ -112,7 +112,7 @@ nav
 .logoisaac
 {
     position: absolute;
-    width: 17.5%;  
+    width: 15.5%;  
     margin-top: 0px;
     z-index: 30000;
 }
@@ -631,10 +631,11 @@ h2
 {
     font-family: century gothic;
     color: #17278a;
-    font-size: 35px;
+    font-size: 20px;
     font-weight: lighter;
     white-space: nowrap;
     margin-top: 100px;
+    margin-left: 100px;
 }
 .textexpo p:nth-child(4)
 {
@@ -821,11 +822,8 @@ lu{
 }
 
 .slogan{
-    margin-left: 10%;
-    margin-top: 35%;
-    font-family: 'Quicksand';
-    font-style: italic;
-    font-size: 50px;
-    color: black;
-    z-index: 5000;
+ height: 2100px;
+ width: 1800px;
+ position: relative;
 }
+
