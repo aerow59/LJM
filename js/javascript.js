@@ -5,6 +5,7 @@ $(document).ready(function () {
     var menu = $('.menu'),
         menuouvrir = $('.menuouvrir'),
         menufermer = $('.menufermer'),
+        mic1 = $('.imgmic1'),
         panier = $('.panier'),
         back = $('.back'),
         panierimg = $('.panier img'),
