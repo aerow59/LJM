@@ -11,12 +11,12 @@
     background-color: rgba(255, 255, 255, 0.75);
 }
 
-h3{
+.titreGreta{
     font-family: 'Quicksand';
     margin-left: 600px;
 }
 
-#affichContenuDivUne,#affichContenuDivUne2{
+#affichContenuDivUne,#affichContenuDivUneImage{
     margin-left: -500px;
     margin-top: 90px;
     height: 300px;
@@ -34,4 +34,25 @@ label{
 SELECT{
     margin-top: 30px;
     font-family: 'Quicksand';
+}
+
+#affichContenuDivUneImage input{
+    margin-top: 20px;
+}
+
+#affichContenuDivUneImage label{
+    margin-left: -15px;
+}
+
+#affichContenuDivUneImage p{
+    color: white;
+}
+
+textarea{
+    margin-left: -90px;
+}
+
+.validerImage{
+    margin-left: -55px;
+    width:100%;
 }
