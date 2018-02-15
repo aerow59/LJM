@@ -27,7 +27,9 @@
                 </div>
             </nav>
             <!--FIN NAV GAUCHE-->
-            
+            <div class="slogan">
+                <p>"Incubateur de réussite"</p>
+            </div>
             <!--ACTUALITES-->
             <div class="expositions">
                 <?php include('evenements.php'); ?>
@@ -101,12 +103,6 @@
             </div>
             <!--FIN PAGE CONTACT-->
             
-            <div class="mic">
-                <img class="imgmic1" src="images/mic.png" alt="" title="Recherche vocale">
-                <img class="imgmic2" src="images/mic.png" alt="" title="Recherche vocale">
-                <div class="ondes1"></div>
-                <div class="ondes2"></div>
-            </div>
         </div>
         <script src="js/mn.js"></script>
         <script src="js/jquery-3.2.1.js"></script>
