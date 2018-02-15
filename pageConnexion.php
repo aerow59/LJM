@@ -15,20 +15,21 @@ if(!isset($_SESSION['nomUser']) && !isset($_SESSION['prenomUser'])){?>
     </div> 
 <?php } 
 else{?>
-    <div class="titreCoPers"><h2>Vous etes connecté</h2></div>
-    <div class="connexion3">
-        <h2>Nom : <?php echo $_SESSION['nomUser']; ?></h2>
-        <h2>Prenom : <?php echo $_SESSION['prenomUser']; ?></h2>
-        <h2>Niveau : <?php echo $_SESSION['levelUser']; ?></h2>
+<h3>Vos informations : </h3> <br>
+    <div class="titreCoPers"><p>Vous etes connecté</p></div>
+    
+        <p>Nom : <?php echo $_SESSION['nomUser']; ?></p>
+        <p>Prenom : <?php echo $_SESSION['prenomUser']; ?></p>
+        <p>Niveau : <?php echo $_SESSION['levelUser']; ?></p>
         <a href="http://www.jean-moulin-roubaix.savoirsnumeriques5962.fr"><h2>Acceder a l'ENT</h2></a>
         <?php 
         echo "Nike ta mère";
         if($_SESSION['levelUser']==4)
         {
-            echo "Level User";
+            echo "level Administrateur";
         }
     ?>
-    </div>    
+       
     
     
     
