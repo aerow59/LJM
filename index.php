@@ -27,16 +27,8 @@
                 </div>
             </nav>
             <!--FIN NAV GAUCHE-->
-            <div class="shop">
-                <p class="produits"></p>                          
-                <div class="pagecasquette">
-                    <div class="fermercasq">
-                        <img src="" title="Retour au magasin">
-                    </div>
-                    <div>
-                        <img src="images/casquette.png" alt="">
-                    </div>                 
-                </div>              
+            <div class="slogan">
+                <p>"Incubateur de réussite"</p>
             </div>
             <!--ACTUALITES-->
             <div class="expositions">
@@ -86,21 +78,31 @@
                 <?php include("ufa.php"); ?>
             </div>
             <!--FIN PAGE UFA-->
-            
+                        
             <!--PAGE ¨PARTENARIAT-->
             <div class="PARTENARIAT">
                 <?php include("partenariat.php"); ?>
             </div>    
             <!--FIN PAGE PARTENARIAT-->
             
-            
-            
-            <div class="mic">
-                <img class="imgmic1" src="images/mic.png" alt="" title="Recherche vocale">
-                <img class="imgmic2" src="images/mic.png" alt="" title="Recherche vocale">
-                <div class="ondes1"></div>
-                <div class="ondes2"></div>
+            <!--PAGE CDI-->
+            <div class="CDI">
+                <?php include('cdi.php'); ?>
             </div>
+            <!--FIN PAGE CDI-->
+            
+            <!--PAGE DEPOT STAGE-->
+            <div class="DEPOT_STAGE">
+                <?php include('depot_Offre_Stage.php'); ?>
+            </div>
+            <!--FIN PAGE DEPOT STAGE-->
+            
+            <!--PAGE CONTACT-->
+            <div class="CONTACT">
+                <?php include('contact.php'); ?>
+            </div>
+            <!--FIN PAGE CONTACT-->
+            
         </div>
         <script src="js/mn.js"></script>
         <script src="js/jquery-3.2.1.js"></script>

@@ -16,7 +16,7 @@
     color: black;
 }
 
-.carre1 {
+.superieur {
   background-color: rgb(222, 33, 115);
   opacity: 0.302;
   position: absolute;
@@ -27,7 +27,7 @@
   z-index: 170;
 }
 
-.carre2 {
+.generalestechno {
   background-color: rgb(255, 255, 255);
   
   position: absolute;
@@ -38,7 +38,7 @@
   z-index: 176;
 }
 
-.carre3 {
+.pro {
   background-color: rgb(252, 195, 0);
   opacity: 0.302;
   position: absolute;
