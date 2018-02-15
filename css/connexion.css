@@ -111,6 +111,7 @@
   z-index: 55;
 }
 
-.connexion3{
+.connexion3 .p{
     font-size: 15px;
+    color: blue;
 }
