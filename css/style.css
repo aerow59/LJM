@@ -825,3 +825,13 @@ lu{
     color:white;
     font-family: 'Quicksand';
 }
+
+.slogan{
+    margin-left: 10%;
+    margin-top: 35%;
+    font-family: 'Quicksand';
+    font-style: italic;
+    font-size: 50px;
+    color: black;
+    z-index: 5000;
+}

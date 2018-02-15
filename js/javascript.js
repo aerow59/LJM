@@ -5,9 +5,6 @@ $(document).ready(function () {
     var menu = $('.menu'),
         menuouvrir = $('.menuouvrir'),
         menufermer = $('.menufermer'),
-        mic1 = $('.imgmic1'),
-        mic2 = $('.imgmic2'),
-        ondes = $('.ondes1, .ondes2'),
         panier = $('.panier'),
         back = $('.back'),
         panierimg = $('.panier img'),
@@ -58,18 +55,6 @@ $(document).ready(function () {
         menuouvrir.show();
         menufermer.hide();
     });
-
-    mic1.click(function () {
-        ondes.css('transform', 'scaleX(1.5) scaleY(1.3) translateY(-10px)').css('opacity', '1');
-        mic1.hide();
-        mic2.show();
-    });
-
-    mic2.click(function () {
-        ondes.css('transform', 'scaleX(0) scaleY(0) translateY(0px)').css('opacity', '0');
-        mic1.show();
-        mic2.hide();
-    });
     
     panier.click(function () {
         back.addClass('transformback');
@@ -89,8 +74,6 @@ $(document).ready(function () {
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0'); 
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
-        mic1.hide();
-        mic2.hide();
     });
 
 
@@ -113,8 +96,6 @@ $(document).ready(function () {
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
-        mic1.hide();
-        mic2.hide();
     });
 
     info.click(function () {
@@ -136,8 +117,6 @@ $(document).ready(function () {
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
-        mic1.hide();
-        mic2.hide();
     });
 
     home.click(function () {
@@ -160,8 +139,6 @@ $(document).ready(function () {
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
-        mic1.show();
-        mic2.hide();
     });
 
     icon.click(function () {
@@ -183,8 +160,6 @@ $(document).ready(function () {
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
-        mic1.show();
-        mic2.hide();
     });
 
     $('.commande input[type="button"]').click(function () {
