@@ -16,6 +16,7 @@ if(!isset($_SESSION['nomUser']) && !isset($_SESSION['prenomUser'])){?>
 
 <?php } 
 else{?>
+
  
 <h2><B>Vos informations : </B></h2> <br>
 <div class="titreCoPers"><h2>Vous etes connecté</h2></div>
@@ -23,7 +24,16 @@ else{?>
         <h2>Nom : <?php echo $_SESSION['nomUser']; ?></h2>
         <h2>Prenom : <?php echo $_SESSION['prenomUser']; ?></h2>
         <h2>Niveau : <?php echo $_SESSION['levelUser']; ?></h2>
+
+    <div class="titreCoPers"><h2>Vous etes connecté</h2></div>
+    <div class="connexion3">
+        <h2>Nom : <?php echo $_SESSION['nomUser']; ?></h2>
+        <h2>Prenom : <?php echo $_SESSION['prenomUser']; ?></h2>
+        <h2>Nom du niveau : <?php echo $_SESSION['nomLevelUser']; ?></h2>
+        <h2>N° niveau : <?php echo $_SESSION['levelUser']; ?></h2>
+
         <a href="http://www.jean-moulin-roubaix.savoirsnumeriques5962.fr"><h2>Acceder a l'ENT</h2></a>
+
         <?php 
         echo "Nike ta mère";
         if($_SESSION['levelUser']==4)
@@ -33,6 +43,16 @@ else{?>
     ?>
        
 
+=======
+        <form>
+            <select name="option" size="1">
+                <option>Ajouter un utilisateur</option>
+                <option>Ajouter une formation</option>
+            </select>
+        </form>
+    </div>    
+    
+>>>>>>> origin/master
     
     
 <?php }

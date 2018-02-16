@@ -9,5 +9,5 @@
         {
             echo $donneesAffichFormationGRETA['nomFormation']; ?><br><?php
         }?>
-            <button>Ajouter une formation (GRETA)</button>
+            
 
