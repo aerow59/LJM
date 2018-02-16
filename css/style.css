@@ -634,8 +634,11 @@ h2
     font-size: 17px;
     font-weight: lighter;
     white-space: nowrap;
-    margin-top: 100px;
-    margin-left: 600px;
+     position:relative;
+     top:100px;
+    
+    margin-top: 50px;
+    margin-left: 100px;
 }
 .textexpo p:nth-child(4)
 {
@@ -827,4 +830,13 @@ lu{
  position: relative;
 }
 
-  
+  .block {
+  background-color: rgb(222, 33, 115);
+  opacity: 0.302;
+  position: absolute;
+  left: 814px;
+  top: 286px;
+  width: 343px;
+  height: 419px;
+  z-index: 170;
+}

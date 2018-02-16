@@ -13,14 +13,16 @@ if(!isset($_SESSION['nomUser']) && !isset($_SESSION['prenomUser'])){?>
         <div class="Ellipse_2"> <img src="images/cercleBleu.png">Mot de passe perdu ?</div>
         <div class="Ellipse_3"> <img src="images/cercleJaune.png">Besoin d'aide ?</div>
     </div> 
+
 <?php } 
 else{?>
-<h3>Vos informations : </h3> <br>
-    <div class="titreCoPers"><p>Vous etes connecté</p></div>
+ 
+<h2><B>Vos informations : </B></h2> <br>
+<div class="titreCoPers"><h2>Vous etes connecté</h2></div>
     
-        <p>Nom : <?php echo $_SESSION['nomUser']; ?></p>
-        <p>Prenom : <?php echo $_SESSION['prenomUser']; ?></p>
-        <p>Niveau : <?php echo $_SESSION['levelUser']; ?></p>
+        <h2>Nom : <?php echo $_SESSION['nomUser']; ?></h2>
+        <h2>Prenom : <?php echo $_SESSION['prenomUser']; ?></h2>
+        <h2>Niveau : <?php echo $_SESSION['levelUser']; ?></h2>
         <a href="http://www.jean-moulin-roubaix.savoirsnumeriques5962.fr"><h2>Acceder a l'ENT</h2></a>
         <?php 
         echo "Nike ta mère";
@@ -30,9 +32,8 @@ else{?>
         }
     ?>
        
-    
+
     
     
 <?php }
-
 
