@@ -8,7 +8,7 @@
     <body>
         <?php session_start(); ?>
         <img class="logoisaac" src="images/logojeanmoulin.png" alt="">
-        <img class="back" src="images/Sans%20titrem.png" alt="">
+        <img class="back" src="images/sans titre-9" alt="">
         <div class="contenu">
             <!-- nav GAUCHE-->
             <nav>
@@ -28,7 +28,7 @@
             </nav>
             <!--FIN NAV GAUCHE-->
             <div class="slogan">
-                <img src="images/phrase.gif"/>
+                <img src="images/maquer2.gif"/>
             </div>
             <!--ACTUALITES-->
             <div class="expositions">
