@@ -128,3 +128,31 @@
   top: 200px;
   z-index: 45;
     }
+
+ .titrecopers {
+  font-size: 22px;
+  font-family: "Century Gothic";
+  color: rgb(23, 39, 138);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  }
+  
+  .h6 {
+  font-size: 22px;
+  font-family: "Century Gothic";
+  color: rgb(23, 39, 138);
+  line-height: 1.2;
+  text-align: center;
+  position: absolute;
+  }
+   .block {
+  opacity: 0.302;
+  position: absolute;
+  left: 814px;
+  top: 286px;
+  width: 343px;
+  height: 419px;
+  z-index: 170;
+  color: rgb(23, 39, 138);
+  }
