@@ -5,7 +5,7 @@ $requete2->execute();
 
 $nbRows = $requete2->rowCount();
 
-if($nbRows == 0 && $_SESSION['']){
+if($nbRows == 0 && $_SESSION['levelUser'] >= 3 ){
     ?><form method="POST" action="php/cdiVideo.php" enctype="multipart/form-data">
             <label for="URLVideo">Entrer le titre de la vidéo : </label><br>
             <input type="text" name="URLVideo" class="URL"><br><br><br>
