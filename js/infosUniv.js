@@ -1,6 +1,7 @@
 $(document).ready(function () {
     
     var lien = $('.lienUniv');
+    var btnPrecedent
     
     lien.click(function(){ 
        var id = $(this).attr('id');
@@ -10,7 +11,7 @@ $(document).ready(function () {
                document.getElementById("UNIVERSITES").innerHTML = this.responseText;
            }
        };
-       xhttp.open("GET", "php/recupInfosUniv.php?nom=id", true);
-       xhttp.send(); 
+       xhttp.open("GET", "php/recupInfosUniv.php?nom="+id, true);
+       xhttp.send(null); 
     });
 });
