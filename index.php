@@ -73,6 +73,22 @@
             </div>
             <!--FIN PAGE FORMATION-->
             
+            <div class="PARTENARIAT">
+                <?php include('partenariat.php'); ?>
+            </div>
+            
+            <div class="STAGES">
+                <?php include('stagePFMP.php'); ?>
+            </div>
+            
+            <div class="PRESSE">
+                <?php include('panoramaPresse.php'); ?>
+            </div>
+            
+            <div class="LIVREOR">
+                <?php include('livreOr.php'); ?>
+            </div>
+            
             <!--PAGE UFA-->
             <div class="UFA">
                 <?php include("ufa.php"); ?>
@@ -80,8 +96,8 @@
             <!--FIN PAGE UFA-->
                         
             <!--PAGE ¨PARTENARIAT-->
-            <div class="PARTENARIAT">
-                <?php include("partenariat.php"); ?>
+            <div class="PARTENARIATAPPR">
+                <?php include("partenariatApprentisage.php"); ?>
             </div>    
             <!--FIN PAGE PARTENARIAT-->
             
@@ -104,7 +120,6 @@
             <!--FIN PAGE CONTACT-->
             
         </div>
-        <script src="js/mn.js"></script>
         <script src="js/jquery-3.2.1.js"></script>
         <script src="js/jquery-ui.js"></script>
         <script src="js/javascript.js"></script>

@@ -1,5 +1,3 @@
-/*jslint devel: true */
-/*global $, jQuery, alert*/
 $(document).ready(function () {
 
     var menu = $('.menu'),
@@ -31,18 +29,26 @@ $(document).ready(function () {
         boutonMenugreta = $('.0'),
         pageGreta = $('.GRETA'),
         page_connexion = $('.page_connexion'),
-        boutonMenuFormation = $('.2'),
-        pageFormation = $('.FORMATION'),
         boutonMenuUfa = $('.1'),
         pageUfa = $('.UFA'),
-        boutonMenuPartenariat = $('.3'),
+        boutonMenuPartenariat = $('.2'),
+        pagePartenariatAppr = $('.PARTENARIATAPPR'),
+        boutonMenuFormation = $('.3'),
+        pageFormation = $('.FORMATION'),
+        boutonPartenariat = $('.4'),
         pagePartenariat = $('.PARTENARIAT'),
-        boutonMenuCDI = $('.4'),
+        boutonMenuStagePFMP = $('.5'),
+        pageStagesPFMP = $('.STAGES'),
+        boutonMenuCDI = $('.6'),
         pageCDI = $('.CDI'),
-        boutonMenuDepotStage = $('.5'),
-        pageDepotStage = $('.DEPOT_STAGE'),
-        boutonMenuContact = $('.6'),
+        boutMenuPresse = $('.7'),
+        pagePresse = $('.PRESSE'),
+        boutonMenuStage = $('.8'),
+        pageDepotStage = $('.DEPOT_STAGE'), 
+        boutonMenuContact = $('.9'),
         pageContact = $('.CONTACT'),
+        boutonMenuLivreOr = $('.10'),
+        pageLivreOr = $('.LIVREOR'),
         fermerverre = $('.fermerverre');
 
     menuouvrir.click(function () {
@@ -71,10 +77,15 @@ $(document).ready(function () {
         pageGreta.css('transform', 'translateX(2000px)').css('transition', '0s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0s');
-        pageCDI.css('transform','translateX(2000px)').css('transition','0');
-        pagePartenariat.css('transform','translateX(2000px)').css('transition','0'); 
+        pageFormation.css('transform','translateX(2000px)').css('transition','0');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0'); 
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
     });
 
 
@@ -93,10 +104,15 @@ $(document).ready(function () {
         pageGreta.css('transform', 'translateX(2000px)').css('transition', '0s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0s');
-        pageCDI.css('transform','translateX(2000px)').css('transition','0');
-        pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
     });
 
     info.click(function () {
@@ -114,10 +130,15 @@ $(document).ready(function () {
         pageGreta.css('transform', 'translateX(2000px)').css('transition', '0s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0s');
-        pageCDI.css('transform','translateX(2000px)').css('transition','0');
-        pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
     });
 
     home.click(function () {
@@ -136,10 +157,15 @@ $(document).ready(function () {
         pageGreta.css('transform', 'translateX(2000px)').css('transition', '0s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0s');
-        pageCDI.css('transform','translateX(2000px)').css('transition','0');
-        pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
     });
 
     icon.click(function () {
@@ -157,10 +183,15 @@ $(document).ready(function () {
         pageGreta.css('transform', 'translateX(2000px)').css('transition', '0s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0s');  
-        pageCDI.css('transform','translateX(2000px)').css('transition','0');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePartenariat.css('transform','translateX(2000px)').css('transition','0');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
     });
 
     $('.commande input[type="button"]').click(function () {
@@ -247,10 +278,15 @@ $(document).ready(function () {
         pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');      
         pageGreta.css('transform', 'translateX(0)').css('transition', '0.3s');
-        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
@@ -263,11 +299,16 @@ $(document).ready(function () {
         shop.css('transform', 'translateX(-2000px)');
         pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
         pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');
-        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
-        pageFormation.css('transform','translateX(0)').css('transition','0.3s');     
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(0)').css('transition','0.3s');     
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
@@ -280,11 +321,16 @@ $(document).ready(function () {
         shop.css('transform', 'translateX(-2000px)');
         pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
-        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
-        pageUfa.css('transform','translateX(0)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageUfa.css('transform','translateX(0)').css('transition','0.3s');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
@@ -297,45 +343,170 @@ $(document).ready(function () {
         shop.css('transform', 'translateX(-2000px)');
         pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
-        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');   
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariatAppr.css('transform','translateX(0)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        menu.css('transform', 'translateX(300px)');
+        menuouvrir.show();
+        menufermer.hide();
+    });
+    
+    boutonMenuFormation.click(function(){
+        expo.css('transform', 'translateX(-2000px)').css('transition', '0.3s');
+        infos.css('transform', 'translateX(-2000px)').css('transition', '0.3s');
+        page_connexion.css('transform','translateX(-2000px)');
+        shop.css('transform', 'translateX(-2000px)');
+        pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(0)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        menu.css('transform', 'translateX(300px)');
+        menuouvrir.show();
+        menufermer.hide();
+    });
+    
+    boutonMenuStagePFMP.click(function(){
+        expo.css('transform', 'translateX(-2000px)').css('transition', '0.3s');
+        infos.css('transform', 'translateX(-2000px)').css('transition', '0.3s');
+        page_connexion.css('transform','translateX(-2000px)');
+        shop.css('transform', 'translateX(-2000px)');
+        pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(0)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        menu.css('transform', 'translateX(300px)');
+        menuouvrir.show();
+        menufermer.hide();
+    });
+    
+    boutonPartenariat.click(function(){
+        expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        page_connexion.css('transform','translateX(-2000px)');
+        shop.css('transform', 'translateX(-2000px)');
+        pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(0)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
     });
     
     boutonMenuCDI.click(function(){
-        expo.css('transform', 'translateX(-2000px)').css('transition', '0.3s');
-        infos.css('transform', 'translateX(-2000px)').css('transition', '0.3s');
+        expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
         page_connexion.css('transform','translateX(-2000px)');
         shop.css('transform', 'translateX(-2000px)');
         pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
-        pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
         pageCDI.css('transform','translateX(0)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
     });
     
-    boutonMenuDepotStage.click(function(){
-        expo.css('transform', 'translateX(-2000px)').css('transition', '0.3s');
-        infos.css('transform', 'translateX(-2000px)').css('transition', '0.3s');
+    boutonMenuFormation.click(function(){
+        expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
         page_connexion.css('transform','translateX(-2000px)');
         shop.css('transform', 'translateX(-2000px)');
         pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(0)').css('transition','0.3s');
+        pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
-        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
-        pageDepotStage.css('transform','translateX(0)').css('transition','0.3s');       
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        menu.css('transform', 'translateX(300px)');
+        menuouvrir.show();
+        menufermer.hide();
+    });
+    
+    boutMenuPresse.click(function(){
+        expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        page_connexion.css('transform','translateX(-2000px)');
+        shop.css('transform', 'translateX(-2000px)');
+        pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(0)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        menu.css('transform', 'translateX(300px)');
+        menuouvrir.show();
+        menufermer.hide();
+    });
+    
+    boutonMenuStage.click(function(){
+        expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        page_connexion.css('transform','translateX(-2000px)');
+        shop.css('transform', 'translateX(-2000px)');
+        pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageDepotStage.css('transform','translateX(0)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
@@ -349,13 +520,39 @@ $(document).ready(function () {
         pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
-        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
-        pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(0)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
     });
     
+    boutonMenuLivreOr.click(function(){
+        expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        page_connexion.css('transform','translateX(-2000px)');
+        shop.css('transform', 'translateX(-2000px)');
+        pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(0)').css('transition','0.3s');
+        menu.css('transform', 'translateX(300px)');
+        menuouvrir.show();
+        menufermer.hide();
+    });
 });

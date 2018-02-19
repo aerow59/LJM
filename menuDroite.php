@@ -9,7 +9,7 @@ $idMenuDroite = 0;
 ?>
 <lu><?php
     while($donnees = $requete->fetch()){
-        ?><li class="<?php echo $idMenuDroite ?>"><?php echo $donnees['nomLienMenuCentral']; ?></li><br><?php
+        ?><li class="<?php echo $idMenuDroite ?>"><?php echo $donnees['nomLienMenuCentral'];?></li><br><?php
         $idMenuDroite = $idMenuDroite+1;      
     }
 ?>
