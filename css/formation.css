@@ -20,10 +20,10 @@
   background-color: rgb(222, 33, 115);
   opacity: 0.302;
   position: absolute;
-  left: 400px;
-  top: 200px;
-  width: 260px;
-  height: 350px;
+  left: 350px;
+  top: 150px;
+  width: 180px;
+  height: 250px;
   z-index: 170;
 }
 
@@ -31,10 +31,10 @@
   background-color: rgb(255, 255, 255);
   
   position: absolute;
-  left: 700px;
-  top: 200px;
-  width: 626px;
-  height: 350px;
+  left: 350px;
+  top: 420px;
+  width: 700px;
+  height: 250px;
   z-index: 176;
 }
 
@@ -42,10 +42,10 @@
   background-color: rgb(252, 195, 0);
   opacity: 0.302;
   position: absolute;
-  left: 400px;
-  top: 555px;
-  width: 1000px;
-  height: 350px;
+  left: 550px;
+  top: 150px;
+  width: 500px;
+  height: 250px;
   z-index: 166;
 }
 
@@ -59,8 +59,8 @@
   -webkit-transform: matrix( 1,0,0,1.00037803123524,0,0);
   -ms-transform: matrix( 1,0,0,1.00037803123524,0,0);
   position: absolute;
-  left: 350.039px;
-  top: 470.5px;
+  left: 250.039px;
+  top: 370.5px;
   z-index: 173;
 }
 
@@ -74,8 +74,8 @@
   -webkit-transform: matrix( 1.36089667151019,0,0,1.36652719502985,0,0);
   -ms-transform: matrix( 1.36089667151019,0,0,1.36652719502985,0,0);
   position: absolute;
-  left: 1230.493px;
-  top: 406.775px;
+  left: 1000px;
+  top: 300.775px;
   z-index: 182;
 }
 
