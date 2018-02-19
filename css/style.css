@@ -840,3 +840,11 @@ lu{
   height: 419px;
   z-index: 170;
 }
+
+.h7 {
+    font-family: Century Gothic;
+    font-weight: lighter;
+    color: #17278a;
+    font-size: 35px;
+    margin: 0;
+}

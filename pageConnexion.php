@@ -2,16 +2,16 @@
 if(!isset($_SESSION['nomUser']) && !isset($_SESSION['prenomUser'])){?>
    <form method="POST" action="php/connexionPhp.php">
     <link rel="stylesheet" href="css/connexion.css">
-    <div class="connexion"><h2>Connexion</h2></div>
+    <div class="connexion"><h7>Connexion</h7></div>
     <div class="textco"> <p>Connectez vous pour pouvoir accéder à vos <br> informations et/ou à moodle.</p></div>
         <input class="Rectangle_arrondi_2" type="text" name="identifiantU"><br><br>
         <input class="Rectangle_arrondi_1" type="password" name="mdpU"><br><br>
         <input class="boutonvalider" type="image" src="images/validerblanc.png" value="Valider"> 
     </form>
     <div class="aide">
-        <div class="Ellipse_1">    <img src="images/cercleViolet.png">Pas encore inscrit ?</div>
-        <div class="Ellipse_2"> <img src="images/cercleBleu.png">Mot de passe perdu ?</div>
-        <div class="Ellipse_3"> <img src="images/cercleJaune.png">Besoin d'aide ?</div>
+        <div class="Ellipse_1">    <img src="images/cercleViolet.png"></div> <div class="petittexte"> <p>Pas encore inscrit ?</p> </div>
+        <div class="Ellipse_2"> <img src="images/cercleBleu.png"></div> <div class="petittexte2"> <p>Mot de passe perdu ? </p> </div>
+        <div class="Ellipse_3"> <img src="images/cercleJaune.png"></div><div class="petittexte3"> <p>Besoin d'aide ? </p> </div>
     </div> 
 
 <?php } 
