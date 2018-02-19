@@ -18,7 +18,7 @@
 
 #affichContenuDivUne{
     text-align: center;
-    margin-left: -500px;
+    margin-left: -300px;
     margin-top: 90px;
     height: 300px;
     width: 500px;
@@ -56,4 +56,13 @@ video{
 .titreVideoDivUne{
     font-family: 'Quicksand';
     color: white;
+}
+
+#affichContenuDivDeux{
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 90px;
+    height: 300px;
+    width: 500px;
+    background-color: grey;
 }

@@ -12,3 +12,4 @@ $requete2 = $bdd->prepare("DELETE FROM videocdi WHERE numeroDiv=1");
 $requete2->execute();
 
 header('Location: ../index.php');
+
