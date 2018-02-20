@@ -1,17 +1,34 @@
 $(document).ready(function () {
     
-    var lien = $('.lienUniv');
-    var btnPrecedent
+    var zoneBase = $('.nomUniv');
     
-    lien.click(function(){ 
-       var id = $(this).attr('id');
-       var xhttp = new XMLHttpRequest();
-       xhttp.onreadystatechange = function(){
-           if (this.readyState === 4 && this.status === 200) {
-               document.getElementById("UNIVERSITES").innerHTML = this.responseText;
-           }
-       };
-       xhttp.open("GET", "php/recupInfosUniv.php?nom="+id, true);
-       xhttp.send(null); 
+    var lienSciencePo = $('.lienUniv0');
+    var lienEspeme = $('.lienUniv1');
+    var lienUniv = $('.lienUniv2');
+    
+    var ctn = $('.contenuUniv');
+    
+    var scienPoTexte = $('.contenuUniv0');
+    var espemeTexte = $('.contenuUniv1');
+    var univTexte = $('.contenuUniv2');  
+    
+    var buttonPrec = $('.btnPrec');
+
+    scienPoTexte.hide();
+    espemeTexte.hide();
+    univTexte.hide();
+    buttonPrec.hide();
+    
+    
+    lienSciencePo.click(function(){
+        zoneBase.hide();
+        ctn.css('margin-left','-500px').css('transition','1s'); 
+        buttonPrec.css('margin-left','0').css('transition','1s');    
+        scienPoTexte.show();
+        buttonPrec.fadeIn("slow");
+    });  
+    
+    buttonPrec.click(function(){
+        
     });
 });

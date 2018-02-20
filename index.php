@@ -74,7 +74,7 @@
             <!--FIN PAGE FORMATION-->
             
             <div class="PARTENARIAT">
-                <?php include('partenariat.php'); ?>
+                <?php include('partenariatAppr.php'); ?>
             </div>
             
             <div class="STAGES">
@@ -97,7 +97,7 @@
                         
             <!--PAGE ¨PARTENARIAT-->
             <div class="PARTENARIATAPPR">
-                <?php include("partenariatApprentisage.php"); ?>
+                <?php include("partenariat.php"); ?>
             </div>    
             <!--FIN PAGE PARTENARIAT-->
             
