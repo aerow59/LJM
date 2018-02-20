@@ -22,13 +22,15 @@ $(document).ready(function () {
     
     lienSciencePo.click(function(){
         zoneBase.hide();
-        ctn.css('margin-left','-500px').css('transition','1s'); 
-        buttonPrec.css('margin-left','0').css('transition','1s');    
+        ctn.css('margin-left','-500px').css('transition','1s');    
         scienPoTexte.show();
         buttonPrec.fadeIn("slow");
     });  
     
     buttonPrec.click(function(){
-        
+        buttonPrec.fadeOut();
+        zoneBase.show();
+        ctn.css('margin-left','-5000px').css('transition','1s');   
+        scienPoTexte.hide("fast");       
     });
 });

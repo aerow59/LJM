@@ -2,7 +2,7 @@
 
 require('configBDD.php');
 
-$requeteUnivTitre = $bdd->prepare('SELECT nomTypePartenariat FROM typePartenariat WHERE idTypePartenariat = 1');
+$requeteUnivTitre = $bdd->prepare('SELECT nomTypePartenariat FROM typepartenariat WHERE idTypePartenariat = 1');
 $requeteUnivTitre->execute();
 
 $requeteNomUniv = $bdd->prepare('SELECT * FROM partenariat WHERE idTypePartenariat = 1');
@@ -28,7 +28,6 @@ $requeteContenuUniv->execute();
             $i = $i + 1;
         }?>
     </div>
-    <button class="btnPrec">Précédent</button>
 </div>
 <div class="contenuUniv">
     <?php
@@ -39,3 +38,4 @@ $requeteContenuUniv->execute();
         $l = $l + 1;
     }?>
 </div>
+<button class="btnPrec">Précédent</button>

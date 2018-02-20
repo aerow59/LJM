@@ -18,28 +18,10 @@
     color: black;
 }
 
-#UNIVERSITES{
-    margin-left: 200px;
-    margin-top: 100px;
-    background-color: rgba(204, 204, 0, 0.75);
-    position: absolute;
-    width: 500px;
-    height: 300px;
-}
-
-.titreUniv{
-    font-size: 25px;
-    font-family: 'Quicksand';
-}
-
-#btnPrec{
-    font-family: 'Quicksand';
-    margin-top: 410px;
-    height: 30px;
-}
-
-.contenuUniv{
-    
+.formImagePartenariat{
+    margin-left: -500px;
+    margin-top: 90px;
+    background-color: yellow;
 }
 .formImagePartenariat{
     margin-left: -500px;
