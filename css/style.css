@@ -178,12 +178,14 @@ nav
 {
     list-style: none;
     align-self: center;
-    font-size: 22px;
-    font-family: myriad pro;
+    font-size: 12px;
+    font-family: arial;
     margin-bottom: 50px;
     color: white;
     letter-spacing: 2.5px;
 }
+
+
 .mars, .jupiter, .saturn, .moon
 {
     display: flex;
@@ -822,6 +824,10 @@ h4, h5
 lu{
     color:white;
     font-family: 'Quicksand';
+    position: absolute;
+    left:20px;
+    top:180px;
+    font-size: 15px;
 }
 
 .slogan{
@@ -847,4 +853,92 @@ lu{
     color: #17278a;
     font-size: 35px;
     margin: 0;
+}
+
+.lienMenuDroite0:hover {
+    color:white;
+    font-family: 'Quicksand';
+     font-size: 17px;
+    transition: 1s;
+     cursor: pointer;
+}
+
+.lienMenuDroite1:hover {
+    color:white;
+    font-family: 'Quicksand';
+    font-size: 17px;
+    transition: 1s;
+     cursor: pointer;
+}
+
+.lienMenuDroite2:hover {
+    color:white;
+    font-family: 'Quicksand';
+    font-size: 17px;
+    transition: 1s;
+     cursor: pointer;
+}
+
+.lienMenuDroite3:hover {
+    color:white;
+    font-family: 'Quicksand';
+    font-size: 17px;
+    transition: 1s;
+     cursor: pointer;
+}
+
+.lienMenuDroite4:hover {
+    color:white;
+    font-family: 'Quicksand';
+    font-size: 17px;
+    transition: 1s;
+     cursor: pointer;
+}
+
+.lienMenuDroite5:hover {
+    color:white;
+    font-family: 'Quicksand';
+    font-size: 17px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.lienMenuDroite6:hover {
+    color:white;
+    font-family: 'Quicksand';
+    font-size: 17px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.lienMenuDroite7:hover {
+    color:white;
+    font-family: 'Quicksand';
+    font-size: 17px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.lienMenuDroite8:hover {
+    color:white;
+    font-family: 'Quicksand';
+    font-size: 17px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.lienMenuDroite9:hover {
+    color:white;
+    font-family: 'Quicksand';
+    font-size: 17px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.lienMenuDroite10:hover {
+    color:white;
+    font-family: 'Quicksand';
+    font-size: 17px;
+    transition: 1s;
+    cursor: pointer;
 }
