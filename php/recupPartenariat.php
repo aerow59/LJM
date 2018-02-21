@@ -11,7 +11,9 @@ $requeteNomUniv->execute();
 $requeteContenuUniv = $bdd->prepare('SELECT * FROM partenariat WHERE idTypePartenariat = 1');
 $requeteContenuUniv->execute();
 
+
 ?>
+
 <div class="Contenu_Univ">
     <div class="titreUniv">
         <?php
@@ -19,6 +21,7 @@ $requeteContenuUniv->execute();
             ?><h4 class="titreUniv"><?php echo $donnees['nomTypePartenariat'] ?></h4><?php
         }?>
     </div>
+    <button class="btnPrecUniv">Précédent</button>
     <div class="nomUniv">
         <?php 
         $i = 0;        
@@ -27,15 +30,18 @@ $requeteContenuUniv->execute();
             ?><p class="<?php echo $lien ?>"><?php echo $donnees['nomPartenariat']; ?></p><?php
             $i = $i + 1;
         }?>
-    </div>
+    </div>  
 </div>
 <div class="contenuUniv">
     <?php
-    $l = 0;    
+        $l = 0;    
     while($donnees = $requeteContenuUniv->fetch()){
         $lien2 = 'contenuUniv'.strval($l);
-        ?><p class="<?php echo $lien2; ?>"><?php echo $donnees['contenu']; ?></p><br><br><br><?php
+        ?><p class="<?php echo $lien2; ?>"><?php echo $donnees['contenu']; ?></p><?php
         $l = $l + 1;
     }?>
 </div>
-<button class="btnPrec">Précédent</button>
+
+<div class="Contenu_Entreprise">
+    
+</div>
