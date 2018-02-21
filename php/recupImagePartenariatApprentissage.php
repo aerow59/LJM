@@ -1,7 +1,7 @@
 <?php
 require('configBDD.php');
 //$requeteAffichImagePart = $bdd->prepare('SELECT * FROM partenariatapprentissage PA INNER JOIN multimediapartenariatapprentissage MPA ON PA.idPartenariat=MPA.idPartenariat');
-$requeteAffichImagePart = $bdd->prepare('SELECT nomMultimediaApp FROM multimediapartenariatapprentissage ');
+$requeteAffichImagePart = $bdd->prepare('SELECT nomPartenariat,nomChemin FROM partenariatapprentissage ');
 $requeteAffichImagePart->execute();
 
 ?><?php
@@ -31,8 +31,10 @@ $requeteAffichImagePart->execute();
                 <div class="affichImage"><?php
                     while($donnees = $requeteAffichImagePart->fetch())
                     {
-                        $cheminImage = str_replace("../", "", $donnees['nomMultimediaApp']);
-                        ?><img src="<?php echo $cheminImage ?>" width="60%" height="auto"/>
+                        $cheminImage = str_replace("../", "", $donnees['nomChemin']);
+                        ?>
+                        <p><?php echo $donnees['nomPartenariat'] ?></p>
+                        <img src="<?php echo $cheminImage ?>" width="50%" height="auto"/>
                             <?php
                             if(isset($_SESSION['levelUser']))
                             {
@@ -51,21 +53,14 @@ $requeteAffichImagePart->execute();
             }
         }
         else
+            //Affichage tout publics
         {?>
           <div class="affichImage"><?php
             while($donnees = $requeteAffichImagePart->fetch())
             {
                 $cheminImage = str_replace("../", "", $donnees['nomMultimediaApp']);
                 ?><img src="<?php echo $cheminImage ?>" width="60%" height="auto"/>
-                    <?php
-                    if(isset($_SESSION['levelUser'])){
-                        if($_SESSION['levelUser']>=3){
-                            ?>
-                            <form method="POST" action="php/supprimerImagePartenariat.php">
-                                <input type="submit" value="Supprimer l'image">
-                            </form><?php
-                        }
-                    }   
+        <?php  
             }?>
         </div><?php  
         }
