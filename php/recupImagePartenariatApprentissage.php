@@ -58,8 +58,9 @@ $requeteAffichImagePart->execute();
           <div class="affichImage"><?php
             while($donnees = $requeteAffichImagePart->fetch())
             {
-                $cheminImage = str_replace("../", "", $donnees['nomMultimediaApp']);
-                ?><img src="<?php echo $cheminImage ?>" width="60%" height="auto"/>
+                $cheminImage = str_replace("../", "", $donnees['nomChemin']);
+        ?>      <p><?php echo $donnees['nomPartenariat'] ?></p>
+                <img src="<?php echo $cheminImage ?>" width="60%" height="auto"/>
         <?php  
             }?>
         </div><?php  
