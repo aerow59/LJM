@@ -23,10 +23,24 @@
     width: 500px;
     margin-left: -4000px;
     margin-top: 150px;
-    flex-direction: column;    
+    flex-direction: column; 
+}
+
+.contenuEntr{
+    position: absolute;
+    width: 500px;
+    margin-left: -4000px;
+    margin-top: 120px;
+    flex-direction: column;
+    z-index: 5000;
 }
 
 .titreUniv{
+    font-size: 20px;
+    font-family: 'Quicksand';
+}
+
+.titreEntr{
     font-size: 20px;
     font-family: 'Quicksand';
 }
@@ -41,10 +55,18 @@ p{
     flex-direction: column;
 }
 
+.btnPrecEntr{
+   width: 500px;
+   height: auto;
+   flex-direction: column; 
+}
+
 .Contenu_Entreprise{
     width: 500px;
     height: 200px;
     margin-top: 100px;
+    margin-left: 850px;
+    position: absolute;
     flex-direction: column;    
     background-color: rgba(255, 255, 255, 0.75);
 }
