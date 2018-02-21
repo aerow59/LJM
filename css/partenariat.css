@@ -13,7 +13,7 @@
 
 .Contenu_Univ{
     width: 500px;
-    height: 300px;
+    height: 200px;
     margin-top: 100px;
     flex-direction: column;    
     background-color: rgba(255, 255, 255, 0.75);
@@ -21,7 +21,6 @@
 
 .contenuUniv{
     width: 500px;
-    height: auto;
     margin-left: -4000px;
     margin-top: 150px;
     flex-direction: column;    
@@ -36,8 +35,16 @@ p{
     font-family: 'Quicksand';
 }
 
-.btnPrec{
+.btnPrecUniv{
     width: 500px;
     height: auto;
     flex-direction: column;
+}
+
+.Contenu_Entreprise{
+    width: 500px;
+    height: 200px;
+    margin-top: 100px;
+    flex-direction: column;    
+    background-color: rgba(255, 255, 255, 0.75);
 }
