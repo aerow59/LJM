@@ -9,9 +9,9 @@ if(!isset($_SESSION['nomUser']) && !isset($_SESSION['prenomUser'])){?>
         <input class="boutonvalider" type="image" src="images/validerblanc.png" value="Valider"> 
     </form>
     <div class="aide">
-        <div class="Ellipse_1">    <img src="images/cercleViolet.png"></div> <div class="petittexte"> <p>Pas encore inscrit ?</p> </div>
-        <div class="Ellipse_2"> <img src="images/cercleBleu.png"></div> <div class="petittexte2"> <p>Mot de passe perdu ?</p> </div>
-        <div class="Ellipse_3"> <img src="images/cercleJaune.png"></div><div class="petittexte3"> <p>Besoin d'aide ? </p> </div>
+        <div onclick="alert('Veuillez contacter votre administrateur réseau')"><div class="Ellipse_1"><img src="images/cercleViolet.png"></div> <div class="petittexte"> <p>Pas encore inscrit ?</p> </div></div>
+        <div onclick="alert('Veuillez contacter votre administrateur réseau')"><div class="Ellipse_2"><img src="images/cercleBleu.png"></div> <div class="petittexte2"> <p>Mot de passe perdu ?</p> </div></div>
+        <div onclick="alert('Veuillez contacter votre administrateur réseau')"><div class="Ellipse_3"><img src="images/cercleJaune.png"></div><div class="petittexte3"> <p>Besoin d'aide ? </p> </div></div>
     </div> 
 
 <?php } 
@@ -36,5 +36,8 @@ else{?>
     </div>    
 
     
-<?php }
+<?php }?>
+    <script>
+    
+    </script>
 

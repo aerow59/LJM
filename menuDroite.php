@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="css/menudroite.css">
 <?php
 
 require('php/configBDD.php');
