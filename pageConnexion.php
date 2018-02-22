@@ -27,12 +27,7 @@ else{?>
         <h2>N° niveau : <?php echo $_SESSION['levelUser']; ?></h2><br>
 
         <a href="http://www.jean-moulin-roubaix.savoirsnumeriques5962.fr"><h2>Acceder a l'ENT</h2></a>
-        <form>
-            <select name="option" size="1">
-                <option>Ajouter un utilisateur</option>
-                <option>Ajouter une formation</option>
-            </select>
-        </form>
+        
     </div>    
 
     
