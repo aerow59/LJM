@@ -1,12 +1,8 @@
 <link rel="stylesheet" href="css/ufa.css">
-<div class="titreUfa"><h3>UFA</h3></div>
+<div class="titreUFA"><h3>UFA</h3></div>
 
-<?php
-        require('php/configBDD.php');
-        $requeteAffichFormationUFA =$bdd->prepare("SELECT nomFormation FROM formation f INNER JOIN typeformation tf ON f.idTypeFormation=tf.idTypeFormation WHERE nomTypeFormation = 'Apprentissage'");
-        $requeteAffichFormationUFA->execute();
+<div class="portailNet">
+    <p class="titreP"><a href="http://185.51.177.12/netypareo/index.php">Portail NetYPareo</a></p>
+</div>
 
-        while($donneesAffichFormationUFA = $requeteAffichFormationUFA->fetch())
-        {
-            echo $donneesAffichFormationUFA['nomFormation']; ?><br><?php
-        }?>
+<?php include('php/ufa/recupBTSMUC.php'); ?>

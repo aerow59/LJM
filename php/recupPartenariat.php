@@ -11,6 +11,9 @@ $requeteTitreEntr->execute();
 $requeteTitreAssoc = $bdd->prepare('SELECT nomTypePartenariat FROM typepartenariat WHERE idTypePartenariat = 3');
 $requeteTitreAssoc->execute();
 
+$requeteTitreEtab = $bdd->prepare('SELECT nomTypePartenariat FROM typepartenariat WHERE idTypePartenariat = 3');
+$requeteTitreEtab->execute();
+
 $requeteNomUniv = $bdd->prepare('SELECT * FROM partenariat WHERE idTypePartenariat = 1');
 $requeteNomUniv->execute();
 
@@ -29,7 +32,11 @@ $requeteContenuEntr->execute();
 $requeteContenuAssoc = $bdd->prepare('SELECT * FROM partenariat WHERE idTypePartenariat = 3');
 $requeteContenuAssoc->execute();
 
+$requeteContenuEtab = $bdd->prepare('SELECT * FROM partenariat WHERE idTypePartenariat = 4');
+$requeteContenuEtab->execute();
 
+$requeteContenuEtab2 = $bdd->prepare('SELECT * FROM partenariat WHERE idTypePartenariat = 4');
+$requeteContenuEtab2->execute();
 ?>
 
 <div class="Contenu_Univ">
@@ -108,4 +115,17 @@ $requeteContenuAssoc->execute();
         ?><p class="<?php echo $lien3; ?>"><?php echo $donnees['contenu']; ?></p><?php
         $v = $v + 1;
     }?> 
+</div>
+
+<div class="contenu_AutreEtab">
+    <?php 
+        while($donnees = $requeteContenuEtab->fetch()){
+            ?><p class="titreEtab"><?php echo $donnees['nomPartenariat']; ?></p><?php
+        }?> 
+    <div class="nomEtab">
+        <?php 
+        while($donnees = $requeteContenuEtab2->fetch()){
+            ?><p class="TexteEtab"><?php echo $donnees['contenu']; ?></p><?php
+        }?>  
+    </div>        
 </div>
