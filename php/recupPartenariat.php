@@ -8,17 +8,26 @@ $requeteUnivTitre->execute();
 $requeteTitreEntr = $bdd->prepare('SELECT nomTypePartenariat FROM typepartenariat WHERE idTypePartenariat = 2');
 $requeteTitreEntr->execute();
 
+$requeteTitreAssoc = $bdd->prepare('SELECT nomTypePartenariat FROM typepartenariat WHERE idTypePartenariat = 3');
+$requeteTitreAssoc->execute();
+
 $requeteNomUniv = $bdd->prepare('SELECT * FROM partenariat WHERE idTypePartenariat = 1');
 $requeteNomUniv->execute();
 
 $requeteNomEntr = $bdd->prepare('SELECT * FROM partenariat WHERE idTypePartenariat = 2');
 $requeteNomEntr->execute();
 
+$requeteNomAssoc = $bdd->prepare('SELECT * FROM partenariat WHERE idTypePartenariat = 3');
+$requeteNomAssoc->execute();
+
 $requeteContenuUniv = $bdd->prepare('SELECT * FROM partenariat WHERE idTypePartenariat = 1');
 $requeteContenuUniv->execute();
 
 $requeteContenuEntr = $bdd->prepare('SELECT * FROM partenariat WHERE idTypePartenariat = 2');
 $requeteContenuEntr->execute();
+
+$requeteContenuAssoc = $bdd->prepare('SELECT * FROM partenariat WHERE idTypePartenariat = 3');
+$requeteContenuAssoc->execute();
 
 
 ?>
@@ -72,4 +81,31 @@ $requeteContenuEntr->execute();
         ?><p class="<?php echo $lien3; ?>"><?php echo $donnees['contenu']; ?></p><?php
         $u = $u + 1;
     }?>      
+</div>
+
+
+<div class="Contenu_Assoc">
+    <?php
+        while($donnees = $requeteTitreAssoc->fetch()){
+            ?><h4 class="titreAssoc"><?php echo $donnees['nomTypePartenariat'] ?></h4><?php
+    }?>
+    <button class="btnPrecAssoc">Précédent</button>
+    <div class="nomAssoc">
+        <?php 
+        $t = 0;
+        while($donnees = $requeteNomAssoc->fetch()){
+            $lien4 = 'nomAssoc'. strval($t);
+            ?><p class="<?php echo $lien4 ?>"><?php echo $donnees['nomPartenariat']; ?></p><?php
+            $t = $t + 1;
+        }?>  
+    </div>
+</div>
+<div class="contenuAssoc">
+    <?php
+    $v = 0;    
+    while($donnees = $requeteContenuAssoc->fetch()){
+        $lien3 = 'contenuAssoc'.strval($v);
+        ?><p class="<?php echo $lien3; ?>"><?php echo $donnees['contenu']; ?></p><?php
+        $v = $v + 1;
+    }?> 
 </div>

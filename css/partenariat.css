@@ -12,6 +12,7 @@
 }
 
 .Contenu_Univ{
+    border-radius: 3px;
     width: 500px;
     height: 200px;
     margin-top: 100px;
@@ -26,21 +27,101 @@
     flex-direction: column; 
 }
 
+.lienUniv0:hover{
+    font-size: 18px;
+    transition: 0.5s;
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.lienUniv1:hover{
+    font-size: 18px;
+    transition: 0.5s;
+    opacity: 0.7;
+    cursor: pointer; 
+    text-decoration: underline;
+}
+
+.lienUniv2:hover{
+    font-size: 18px;
+    transition: 0.5s;
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nomEntr0:hover{
+    font-size: 18px;
+    transition: 0.5s;
+    opacity: 0.7;
+    cursor: pointer; 
+    text-decoration: underline;
+}
+
+.nomEntr1:hover{
+    font-size: 18px;
+    transition: 0.5s;
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nomAssoc0:hover{
+    font-size: 18px;
+    transition: 0.5s;
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline; 
+}
+
+.nomAssoc1:hover{
+    font-size: 18px;
+    transition: 0.5s;
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline; 
+}
+
+.nomAssoc2:hover{
+    font-size: 18px;
+    transition: 0.5s;
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline; 
+}
+
+.nomAssoc3:hover{
+    font-size: 18px;
+    transition: 0.5s;
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline; 
+}
+
 .contenuEntr{
     position: absolute;
     width: 500px;
     margin-left: -4000px;
-    margin-top: 120px;
+    margin-top: 140px;
     flex-direction: column;
     z-index: 5000;
 }
 
 .titreUniv{
+    text-align: center;
     font-size: 20px;
     font-family: 'Quicksand';
 }
 
 .titreEntr{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Quicksand';
+}
+
+.titreAssoc{
+    text-align: center;
     font-size: 20px;
     font-family: 'Quicksand';
 }
@@ -61,7 +142,14 @@ p{
    flex-direction: column; 
 }
 
+.btnPrecAssoc{
+   width: 500px;
+   height: auto;
+   flex-direction: column; 
+}
+
 .Contenu_Entreprise{
+    border-radius: 3px;
     width: 500px;
     height: 200px;
     margin-top: 100px;
@@ -69,4 +157,31 @@ p{
     position: absolute;
     flex-direction: column;    
     background-color: rgba(255, 255, 255, 0.75);
+}
+
+.contenuEntr0 a{
+    color: black;
+}
+
+.contenuEntr1 a{
+    color: black;
+}
+
+.Contenu_Assoc{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.75);
+    margin-top: 350px;
+    margin-left: 250px;
+    flex-direction: column;
+    position: absolute;
+}
+
+.contenuAssoc{
+    position: absolute;
+    width: 500px;
+    margin-left: -4000px;
+    margin-top: 390px;
+    flex-direction: column;
+    z-index: 5000; 
 }
