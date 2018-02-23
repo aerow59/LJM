@@ -3,8 +3,9 @@ require('php/configBDD.php');
 
 $requeteTitreUfa = $bdd->prepare('SELECT * FROM formation WHERE idTypeFormation = 4');
 $requeteTitreUfa->execute();
-$i = 0;
 
+
+$i = 0;
 ?><div class="BTS"><?php
     while($donnees = $requeteTitreUfa->fetch()){
         $idDiv = 'divBTS'.strval($i)?>
@@ -15,4 +16,5 @@ $i = 0;
         $i = $i+1;
     } ?>
 </div>
+
 

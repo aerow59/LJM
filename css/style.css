@@ -781,14 +781,7 @@ h6
     color: #797979;
     width: 360px;
 }
-h4, h5
-{
-    font-family: Century Gothic;
-    font-weight: lighter;
-    color: #17278a;
-    font-size: 35px;
-    margin: 0;
-}
+
 .descriptions
 {
     display: flex;
