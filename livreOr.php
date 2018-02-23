@@ -13,27 +13,27 @@
 <script language="javascript">
     function donneesObligatoire()
     {
-//        if(form.nom.value===''){
-//            alert("Nom obligatoire !!");
-//            document.getElementById('nom').className="rouge";
-//            document.getElementById('nom').focus();
-//            
-//        }
-//        if(form.prenom.value===''){
-//            alert("Prénom obligatoire !!");
-//            document.getElementById('prenom').className="rouge";
-//            document.getElementById('prenom').focus();
-//        }
-//        if(form.niveau.value===''){
-//            alert("Choix du niveau obligatoire !!");
-//            document.getElementById('niveau').className="rouge";
-//            document.getElementById('nivezu').focus();
-//        }
-//        if(form.message.value===''){
-//            alert("Message obligatoire !!");
-//            document.getElementById('message').className="rouge";
-//            document.getElementById('message').focus();
-//        }
+        if(form.nom.value===''){
+            alert("Nom obligatoire !!");
+            document.getElementById('nom').className="rouge";
+            document.getElementById('nom').focus();
+            
+        }
+        if(form.prenom.value===''){
+            alert("Prénom obligatoire !!");
+            document.getElementById('prenom').className="rouge";
+            document.getElementById('prenom').focus();
+        }
+        if(form.niveau.value===''){
+            alert("Choix du niveau obligatoire !!");
+            document.getElementById('niveau').className="rouge";
+            document.getElementById('nivezu').focus();
+        }
+        if(form.message.value===''){
+            alert("Message obligatoire !!");
+            document.getElementById('message').className="rouge";
+            document.getElementById('message').focus();
+        }
         
         //recup du reste des variables 
         var nomRecup=document.getElementById('nom').value;

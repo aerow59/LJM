@@ -13,7 +13,7 @@
 
         while($donneesAffichFormationSup = $requeteAffichFormationSup->fetch())
         {
-            echo $donneesAffichFormationSup['nomFormation']; ?><br><?php
+            echo $donneesAffichFormationSup['nomFormation']; ?><img src="images/delete.png"/><br><?php
         }?>
     </div>
 
@@ -24,7 +24,7 @@
 
         while($donneesAffichFormationGT = $requeteAffichFormationGT->fetch())
         {
-            echo $donneesAffichFormationGT['nomFormation']; ?><br><?php
+            echo $donneesAffichFormationGT['nomFormation']; ?><img src="images/delete.png"/><br><?php
         }?>
     </div>
     <div class="pro"> 
@@ -34,7 +34,7 @@
 
         while($donneesAffichFormationPro = $requeteAffichFormationPro->fetch())
         {
-            echo $donneesAffichFormationPro['nomFormation']; ?><br><?php
+            echo $donneesAffichFormationPro['nomFormation']; ?><img src="images/delete.png"/><br><?php
         }?>
             
             
