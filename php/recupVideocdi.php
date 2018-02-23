@@ -10,8 +10,8 @@ $nbRowsDiv1 = $requeteDiv1->rowCount();
             if($_SESSION['levelUser']>=3){
                 ?><form method="POST" action="php/cdiVideo.php" enctype="multipart/form-data">
                 <label for="URLVideo">Entrer le titre de la vidéo : </label><br>
-                <input type="text" name="URLVideo" class="URL"><br><br><br>
-                <input type="file" name="video" class="uploadV" value="video"><br><br><br><br><br>
+                <input type="text" name="URLVideo" class="URL" required="required"><br><br><br>
+                <input type="file" name="video" class="uploadV" value="video" required="required"><br><br><br><br><br>
                 <input type="submit" name="Valider" class="btnValiderV">
             </form><?php
             }
@@ -49,8 +49,8 @@ $nbRowsDiv2 = $requeteDiv2->rowCount();
             if($_SESSION['levelUser'] >=3 ){
                 ?><form method="POST" action="php/cdiVideo2.php" enctype="multipart/form-data">
                 <label for="URLVideo">Entrer le titre de la vidéo : </label><br>
-                <input type="text" name="URLVideo" class="URL"><br><br><br>
-                <input type="file" name="video" class="uploadV" value="video"><br><br><br><br><br>
+                <input type="text" name="URLVideo" class="URL" required="required"><br><br><br>
+                <input type="file" name="video" class="uploadV" value="video" required="required"><br><br><br><br><br>
                 <input type="submit" name="Valider" class="btnValiderV">
             </form><?php  
             }
