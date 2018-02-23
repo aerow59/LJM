@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 body
 {
     margin: 0;
@@ -43,7 +45,6 @@ a{
 }
 
 .page_connexion{
-    color: white;
     position: absolute;
     display: flex;
     transform-origin: left;
@@ -51,6 +52,107 @@ a{
     width: 100%;
     height: 100vh;
     background-color: rgba(255, 255, 255, 0.75);
+}
+
+.ESPACE_INFO{
+    width: 700px;
+    font-family: 'Quicksand';
+    margin-left: 100px;
+}
+
+.titreINFO{
+    width: 800px;
+    color: #1b435c;
+    font-style: italic;
+    margin-left: 600px;
+}
+
+.infoE0{
+    position: absolute;
+}
+
+.infoE1{
+    position: absolute;
+    margin-left: 300px;
+}
+
+.infoE2{
+    position: absolute;
+    margin-left: 700px;
+}
+
+.infoE3{
+    position: absolute;
+    margin-left: 1200px;
+}
+
+.lienInfo{
+    font-size: 10px;
+    font-family: 'Quicksand';
+    color: #1b435c;
+}
+
+.lienUtiles{
+    text-align: center;
+    width: 200px;
+    margin-top: 65%;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.panelAdmin1{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: -600px;
+    width: 500px;
+    height: 320px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 5px;
+}
+
+.subF{
+    width: 100%;
+}
+
+.titrePanelAdmin1{
+    text-align: center;
+    font-family: 'Quicksand';
+}
+
+.labelF{
+    color: black;
+    margin-left: 0px;
+}
+
+.typeF{
+   font-family: 'Quicksand'; 
+}
+
+.nomF{
+    background-color: white;
+    border-radius: 0px;
+}
+
+textarea[name=contenuF]{
+    margin-left: 170px;
+    resize: none;
+    width: 250px;
+}
+
+.ajoutF{
+    margin-left: 0px !important;
+}
+
+.contenuF{
+    color: black;
+    margin-left: 95px;
+}
+
+.labelN{
+    color: black;
+    margin-left: 120px;
 }
 
 .contenu_connexion form{
@@ -628,19 +730,6 @@ h1 span
     font-size: 20px;
     white-space: nowrap;
     font-family: myriad pro;
-}
-h2
-{
-    font-family: century gothic;
-    color: #17278a;
-    font-size: 17px;
-    font-weight: lighter;
-    white-space: nowrap;
-     position:relative;
-     top:100px;
-    
-    margin-top: 50px;
-    margin-left: 100px;
 }
 .textexpo p:nth-child(4)
 {

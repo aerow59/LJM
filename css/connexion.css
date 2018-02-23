@@ -114,10 +114,6 @@
   z-index: 55;
 }
 
-.connexion3 {
-     width: 200px;
-     height: 200px;
-     }
 .h2 {
   font-size: 22px;
   font-family: "Century Gothic";
@@ -128,7 +124,7 @@
   left: 1150px;
   top: 200px;
   z-index: 45;
-    }
+}
 
  .titrecopers {
   font-size: 22px;

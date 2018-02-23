@@ -127,6 +127,10 @@
     margin-left: 550px;
 }
 
+.titreModa{
+    text-align: center;
+}
+
 .titreModa:hover{
     cursor: pointer;
     transform: scale(1.3);

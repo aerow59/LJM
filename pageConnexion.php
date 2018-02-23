@@ -17,22 +17,28 @@ if(!isset($_SESSION['nomUser']) && !isset($_SESSION['prenomUser'])){?>
 <?php } 
 else{?>
 
- 
-<h2><B>Vos informations : </B></h2> <br>
-    <div class="titreCoPers"><h2>Vous etes connecté</h2></div>
+<div class="ESPACE_INFO">
+    <h2 class="titreINFO">Vos informations : </h2> <br>
     <div class="connexion3">
-        <h2>Nom : <?php echo $_SESSION['nomUser']; ?></h2>
-        <h2>Prenom : <?php echo $_SESSION['prenomUser']; ?></h2>
-        <h2>Nom du niveau : <?php echo $_SESSION['nomLevelUser']; ?></h2>
-        <h2>N° niveau : <?php echo $_SESSION['levelUser']; ?></h2><br>
-
-        <a href="http://www.jean-moulin-roubaix.savoirsnumeriques5962.fr"><h2>Acceder a l'ENT</h2></a>
-        
-    </div>    
-
+        <h2 class="infoE0">Nom : <?php echo $_SESSION['nomUser']; ?></h2>
+        <h2 class="infoE1">Prenom : <?php echo $_SESSION['prenomUser']; ?></h2>
+        <h2 class="infoE2">Nom du niveau : <?php echo $_SESSION['nomLevelUser']; ?></h2><br><br>
+    </div>
+        <div class="lienUtiles">
+            <p class="titreUtile">Liens utiles :</p>
+            <a class="lienInfo" href="http://www.jean-moulin-roubaix.savoirsnumeriques5962.fr"><h2>Accéder à l'ENT</h2></a>
+            <a class="lienInfo" href="https://extranet.lycee-jean-moulin.com:8443/intranet/"><h2>Accéder à l'intranet</h2></a>
+            <a class="lienInfo" href="http://www.google.fr"><h2>Accéder à Google</h2></a>
+            <a class="lienInfo" href="#"><h2>Accéder a moodle</h2></a>
+        </div>          
+</div>
     
 <?php }?>
-    <script>
-    
-    </script>
-
+<div class="panelAdmin1"><?php
+    if(isset($_SESSION['nomUser']) && isset($_SESSION['prenomUser'])){
+        ?>
+        <div class="titrePanelAdmin1">Panel administration des formations :</div>       
+        <?php
+        include('php/panelAdmin/recupFormation.php');
+    }?>
+</div>

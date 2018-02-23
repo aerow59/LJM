@@ -8,7 +8,7 @@
 
     <div class="superieur"> 
         <?php
-        $requeteAffichFormationSup =$bdd->prepare("SELECT nomFormation FROM formation f INNER JOIN typeformation tf ON f.idTypeFormation=tf.idTypeFormation WHERE nomTypeFormation = 'Supérieurs'");
+        $requeteAffichFormationSup =$bdd->prepare("SELECT nomFormation FROM formation f INNER JOIN typeformation tf ON f.idTypeFormation=tf.idTypeFormation WHERE nomTypeFormation = 'Supérieures'");
         $requeteAffichFormationSup->execute();
 
         while($donneesAffichFormationSup = $requeteAffichFormationSup->fetch())
