@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Quicksand');
 
+
+
 .PARTENARIAT{
     background-color: blue;
     position: absolute;
@@ -23,8 +25,9 @@
 
 .contenuUniv{
     width: 500px;
+    position: relative;
     margin-left: -4000px;
-    margin-top: 150px;
+    margin-top: 200px;
     flex-direction: column; 
 }
 

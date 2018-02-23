@@ -15,10 +15,10 @@ $requeteAffichImagePart->execute();
                         <table>
                             <tr>
                                 <td><label for="nomEntreprise">Nom de l'entreprise : </label></td>
-                                <td><input type="text" name="nomEntreprise" class="URL"></td>
+                                <td><input type="text" name="nomEntreprise" class="URL" required="required"></td>
                             </tr>
                             <tr>
-                                <td><input type="file" name="image" class="uploadI" value="video"></td> 
+                                <td><input type="file" name="image" class="uploadI" value="video" required="required"></td> 
                                 <td></td>
                             </tr>
                             <tr>
