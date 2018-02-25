@@ -23,6 +23,7 @@ else{?>
         <h2 class="infoE0">Nom : <?php echo $_SESSION['nomUser']; ?></h2>
         <h2 class="infoE1">Prenom : <?php echo $_SESSION['prenomUser']; ?></h2>
         <h2 class="infoE2">Nom du niveau : <?php echo $_SESSION['nomLevelUser']; ?></h2><br><br>
+        <a href="php/deconnexion.php"><h2 class="infoE2">Se déconnecter</h2></a>
     </div>
         <div class="lienUtiles">
             <p class="titreUtile">Liens utiles :</p>

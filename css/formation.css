@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 .FORMATION{
     background-color: blue;
     position: absolute;
@@ -49,7 +51,7 @@
 
 .PROFESSIONNELLES {
   font-size: 30px;
-  font-family: "Century Gothic";
+  font-family: "Quicksand";
   color: rgb(0, 0, 0);
   line-height: 1.2;
   text-align: center;
@@ -57,14 +59,14 @@
   -webkit-transform: matrix( 1,0,0,1.00037803123524,0,0);
   -ms-transform: matrix( 1,0,0,1.00037803123524,0,0);
   position: absolute;
-  left: 250.039px;
-  top: 370.5px;
+  margin-left: 950px;
+  margin-top: 250px;
   z-index: 173;
 }
 
 .GENERALES_ET_TECHNOLOGIQUES {
   font-size: 22px;
-  font-family: "Century Gothic";
+  font-family: "Quicksand";
   color: rgb(0, 0, 0);
   line-height: 1.2;
   text-align: left;
@@ -73,7 +75,23 @@
   -ms-transform: matrix( 1.36089667151019,0,0,1.36652719502985,0,0);
   position: absolute;
   left: 1000px;
-  top: 300.775px;
+  margin-top: 500px;
+  z-index: 182;
+}
+
+.SUPERIEURES{
+  font-size: 22px;
+  font-family: "Quicksand";
+  color: rgb(0, 0, 0);
+  line-height: 1.2;
+  text-align: left;
+  -moz-transform: matrix( 1.36089667151019,0,0,1.36652719502985,0,0);
+  -webkit-transform: matrix( 1.36089667151019,0,0,1.36652719502985,0,0);
+  -ms-transform: matrix( 1.36089667151019,0,0,1.36652719502985,0,0);
+  position: absolute;
+  left: 200px;
+  top: 70px;
+  margin-top: 200px;
   z-index: 182;
 }
 
@@ -88,6 +106,28 @@
 }
 .pro .superieur .generalestechno{
     font-size: 20px;
+}
+
+.generalestechno{
+    font-family: "Quicksand";
+}
+.lblModif{
+    margin-left: 0px;
+}
+
+.lblModifFC{
+    margin-left: 0px;
+}
+
+.contenuF{
+    margin-left: 0px;
+    resize: none;
+    width: 550px;
+    height: 100px;
+}
+
+.btnValiderF{
+    width: 100%;
 }
 
 

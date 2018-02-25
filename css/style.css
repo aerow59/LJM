@@ -135,12 +135,6 @@ a{
     border-radius: 0px;
 }
 
-textarea[name=contenuF]{
-    margin-left: 170px;
-    resize: none;
-    width: 250px;
-}
-
 .ajoutF{
     margin-left: 0px !important;
 }

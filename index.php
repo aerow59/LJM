@@ -89,6 +89,10 @@
                 <?php include('livreOr.php'); ?>
             </div>
             
+            <div class="FORMATION_COMPL">
+                <?php include('formationCompl.php')?>
+            </div>
+            
             <!--PAGE UFA-->
             <div class="UFA">
                 <?php include("ufa.php"); ?>
