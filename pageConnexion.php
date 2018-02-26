@@ -17,22 +17,6 @@ if(!isset($_SESSION['nomUser']) && !isset($_SESSION['prenomUser'])){?>
 <?php } 
 else{?>
 
-<div class="ESPACE_INFO">
-    <h2 class="titreINFO">Vos informations : </h2> <br>
-    <div class="connexion3">
-        <h2 class="infoE0">Nom : <?php echo $_SESSION['nomUser']; ?></h2>
-        <h2 class="infoE1">Prenom : <?php echo $_SESSION['prenomUser']; ?></h2>
-        <h2 class="infoE2">Nom du niveau : <?php echo $_SESSION['nomLevelUser']; ?></h2><br><br>
-        <a href="php/deconnexion.php"><h2 class="infoE2">Se déconnecter</h2></a>
-    </div>
-        <div class="lienUtiles">
-            <p class="titreUtile">Liens utiles :</p>
-            <a class="lienInfo" href="http://www.jean-moulin-roubaix.savoirsnumeriques5962.fr" target="_blank"><h2>Accéder à l'ENT</h2></a>
-            <a class="lienInfo" href="https://extranet.lycee-jean-moulin.com:8443/intranet/" target="_blank"><h2>Accéder à l'intranet</h2></a>
-            <a class="lienInfo" href="http://www.google.fr" target="_blank"><h2>Accéder à Google</h2></a>
-            <a class="lienInfo" href="#" target="_blank"><h2>Accéder a moodle</h2></a>
-        </div>          
-</div>
     
 <?php }?>
 <div class="panelAdmin1"><?php
@@ -49,4 +33,21 @@ else{?>
         }
         
     }?>
+</div>
+
+<div class="ESPACE_INFO">
+    <h2 class="titreINFO">Vos informations : </h2> <br>
+    <div class="connexion3">
+        <h2 class="infoE0">Nom : <?php echo $_SESSION['nomUser']; ?></h2>
+        <h2 class="infoE1">Prenom : <?php echo $_SESSION['prenomUser']; ?></h2>
+        <h2 class="infoE2">Nom du niveau : <?php echo $_SESSION['nomLevelUser']; ?></h2><br><br>
+        <a href="php/deconnexion.php"><h2 class="infoE2">Se déconnecter</h2></a>
+    </div>
+        <div class="lienUtiles">
+            <p class="titreUtile">Liens utiles :</p>
+            <a class="lienInfo" href="http://www.jean-moulin-roubaix.savoirsnumeriques5962.fr" target="_blank"><h2>Accéder à l'ENT</h2></a>
+            <a class="lienInfo" href="https://extranet.lycee-jean-moulin.com:8443/intranet/" target="_blank"><h2>Accéder à l'intranet</h2></a>
+            <a class="lienInfo" href="http://www.google.fr" target="_blank"><h2>Accéder à Google</h2></a>
+            <a class="lienInfo" href="#" target="_blank"><h2>Accéder a moodle</h2></a>
+        </div>          
 </div>

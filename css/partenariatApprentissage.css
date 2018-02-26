@@ -19,7 +19,7 @@
 }
 
 .formImagePartenariat{
-    margin-left: -600px;
+    position: absolute;
     margin-top: 90px;
     background-color: yellow;
 }

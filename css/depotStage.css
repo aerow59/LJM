@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 .DEPOT_STAGE{
     background-color: blue;
     position: absolute;
@@ -10,8 +12,15 @@
 }
 
 .titreDepotStage{
-    margin-top: 0px;
+    font-family: 'Quicksand';
     flex-direction: column;    
-    margin-left: 100px;
+    margin-left: 45%;
     color: black;
+}
+
+.formStage{
+    width: 1000px;
+    margin-left: 35%;
+    margin-top: 100px;
+    position: absolute;
 }

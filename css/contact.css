@@ -36,3 +36,8 @@ textarea{
     background-color:#1b435c;
     color: white;
 }
+
+.formContact{
+    margin-left: 40%;
+    position: absolute;
+}
