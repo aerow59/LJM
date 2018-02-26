@@ -10,13 +10,21 @@
 
     <div class="superieur"> 
         <?php
-        $requeteAffichFormationSup =$bdd->prepare("SELECT nomFormation FROM formation f INNER JOIN typeformation tf ON f.idTypeFormation=tf.idTypeFormation WHERE nomTypeFormation = 'Supérieures'");
+        $requeteAffichFormationSup =$bdd->prepare("SELECT nomFormation,contenu FROM formation f INNER JOIN typeformation tf ON f.idTypeFormation=tf.idTypeFormation WHERE nomTypeFormation = 'Supérieures'");
         $requeteAffichFormationSup->execute();
 
         while($donneesAffichFormationSup = $requeteAffichFormationSup->fetch())
         {
-            ?><div class="<?php echo $donneesAffichFormationSup['nomFormation']; ?>"><?php echo $donneesAffichFormationSup['nomFormation']; ?><img class="suppresion" src="images/delete.png" width="4%" height="auto"/> <img class="modif" src="images/write.png" width="20px" height="auto"/></div><br><?php
-        }?>
+            ?><div class="<?php echo $donneesAffichFormationSup['nomFormation']; ?>"><div class="titreF"><?php echo $donneesAffichFormationSup['nomFormation'];?>
+                    <?php if(isset($_SESSION['levelUser'])){
+                            if($_SESSION['levelUser']==4){
+                                ?><img class="suppresion" src="images/delete.png" width="20px" height="auto"/><img class="modif" src="images/write.png" width="20px" height="auto"/><?php                                    
+                            }           
+                        }
+                ?></div><br>                      
+                    <div class="contenuFDiv"><?php echo $donneesAffichFormationSup['contenu']; ?></div><?php
+            ?></div><?php
+            }?>
     </div>
 
     <div class="generalestechno">
@@ -38,12 +46,19 @@
     </div>
     <div class="pro"> 
         <?php
-        $requeteAffichFormationPro =$bdd->prepare("SELECT nomFormation FROM formation f INNER JOIN typeformation tf ON f.idTypeFormation=tf.idTypeFormation WHERE nomTypeFormation = 'Professionnelles'");
+        $requeteAffichFormationPro =$bdd->prepare("SELECT nomFormation,contenu FROM formation f INNER JOIN typeformation tf ON f.idTypeFormation=tf.idTypeFormation WHERE nomTypeFormation = 'Professionnelles'");
         $requeteAffichFormationPro->execute();
 
         while($donneesAffichFormationPro = $requeteAffichFormationPro->fetch())
         {
-            ?><div class="<?php echo $donneesAffichFormationPro['nomFormation']; ?>"> <?php echo $donneesAffichFormationPro['nomFormation']; ?><img class="suppresion" src="images/delete.png" width="20px" height="auto"/> <img class="modif" src="images/write.png" width="3%" height="auto"/></div><br><?php
+           ?><div class="<?php echo $donneesAffichFormationPro['nomFormation']; ?>"><div class="titreF"><?php echo $donneesAffichFormationPro['nomFormation'];?>
+                <?php if(isset($_SESSION['levelUser'])){   
+                    if($_SESSION['levelUser']==4){
+                        ?><img class="suppresion" src="images/delete.png" width="20px" height="auto"/><img class="modif" src="images/write.png" width="20px" height="auto"/><?php
+                    }                   
+                } ?></div><br>                      
+                    <div class="contenuFDiv"><?php echo $donneesAffichFormationPro['contenu']; ?></div><?php
+            ?></div><?php
         }?>
             
             
