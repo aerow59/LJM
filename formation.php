@@ -6,7 +6,6 @@
 <div class="PROFESSIONNELLES"> PROFESSIONNELLES </div>
 <div class="GENERALES_ET_TECHNOLOGIQUES"> GENERALES <br> ET TECHNOLOGIQUES </div>
 <div class="SUPERIEURES">SUPÉRIEURES</div>
-<div class="trait1"></div>
 
     <div class="superieur"> 
         <?php
@@ -25,6 +24,7 @@
                     <div class="contenuFDiv"><?php echo $donneesAffichFormationSup['contenu']; ?></div><?php
             ?></div><?php
             }?>
+        <button class="btnPrec">Précédent</button>
     </div>
 
     <div class="generalestechno">
@@ -43,6 +43,7 @@
                     <div class="contenuFDiv"><?php echo $donneesAffichFormationGT['contenu']; ?></div><?php
             ?></div><?php           
         }?>
+        <button class="btnPrec">Précédent</button>
     </div>
     <div class="pro"> 
         <?php
@@ -60,8 +61,7 @@
                     <div class="contenuFDiv"><?php echo $donneesAffichFormationPro['contenu']; ?></div><?php
             ?></div><?php
         }?>
-            
-            
+        <button class="btnPrec">Précédent</button>              
     </div>
 <script src="js/jquery-3.2.1.js"></script>
 <script src="js/suppresionModifFormation.js"></script>

@@ -23,18 +23,18 @@
   background-color: rgb(222, 33, 115);
   position: absolute;
   left: 10%;
-  top: 150px;
+  top: 10%;
   width: 23%;
-  height: 250px;
+  height: 40%;
   z-index: 170;
 }
 .generalestechno {
   background-color: rgb(255, 255, 255);  
   position: absolute;
   left: 10%;
-  top: 420px;
+  top: 53%;
   width: 70%;
-  height: 250px;
+  height: 40%;
   z-index: 176;
 }
 
@@ -42,10 +42,10 @@
   background-color: rgb(252, 195, 0);
   font-family: "Quicksand";
   position: absolute;
-  left: 550px;
-  top: 150px;
+  left: 34.5%;
+  top: 10%;
   width: 45.5%;
-  height: 250px;
+  height: 40%;
   z-index: 166;
 }
 
@@ -59,7 +59,7 @@
   -webkit-transform: matrix( 1,0,0,1.00037803123524,0,0);
   -ms-transform: matrix( 1,0,0,1.00037803123524,0,0);
   position: absolute;
-  margin-left: 66%;
+  margin-left: 75%;
   margin-top: 250px;
   z-index: 173;
 }
@@ -74,8 +74,8 @@
   -webkit-transform: matrix( 1.36089667151019,0,0,1.36652719502985,0,0);
   -ms-transform: matrix( 1.36089667151019,0,0,1.36652719502985,0,0);
   position: absolute;
-  left: 70%;
-  margin-top: 500px;
+  left: 75%;
+  margin-top: 70%;
   z-index: 182;
 }
 
@@ -89,27 +89,19 @@
   -webkit-transform: matrix( 1.36089667151019,0,0,1.36652719502985,0,0);
   -ms-transform: matrix( 1.36089667151019,0,0,1.36652719502985,0,0);
   position: absolute;
-  left: 200px;
-  top: -10%;
+  left: 10%;
+  top: -15%;
   margin-top: 200px;
   z-index: 182;
 }
 
-.trait1 {
-  background-color: rgb(0, 0, 0);
-  position: absolute;
-  left: 350px;
-  top: 515px;
-  width: 58px;
-  height: 3px;
-  z-index: 172;
-}
 .pro .superieur .generalestechno{
     font-size: 20px;
 }
 
 .generalestechno{
     font-family: "Quicksand";
+    font-size: 100%;
 }
 .lblModif{
     margin-left: 0px;
@@ -128,6 +120,11 @@
 
 .btnValiderF{
     width: 100%;
+}
+
+.btnPrec{
+    font-family: "Quicksand";
+    width: 100%;  
 }
 
 

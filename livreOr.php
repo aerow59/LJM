@@ -55,7 +55,7 @@
         <legend>Vos informations : </legend>
         <p><label for="nom">Nom : <input type="text" id="nom" name="nom"/></p>
         <p><label for="prenom">Prénom : <input type="text" id="prenom" name="prenom"/></p>
-        <p><label>Qui étais vous ?</label></p>
+        <p><label>Quel role aviez-vous au sein du lycée ?</label></p>
         <select name="niveau">
             <option selected></option>
             <option value="Etudiant">Etudiant</option>

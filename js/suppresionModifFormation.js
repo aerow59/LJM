@@ -7,50 +7,56 @@ $(document).ready(function () {
     var blockPro = $('.pro');
     var blockSup = $('.superieur');
     var titreclique = $('.titreF');
+    
+    var btnPrec = $('.btnPrec');
+   
+    blockGT.css('overflow','auto');
+    
     toutTexte.hide();
+    btnPrec.hide();
     
     blockGT.children().each(function(){
+        var titre = $(this).find('.titreF');
        $(this).hover(function(){
-           $(this).css('cursor','pointer');
-           $(this).css('font-style','italic');
-           $(this).css('text-decoration','underline');
-           $(this).css('transition','1s');
-                                },
+           titre.css('cursor','pointer');
+           titre.css('font-style','italic');
+           titre.css('text-decoration','underline');
+           titre.css('transition','1s');},
             function(){
-               $(this).css('text-decoration','none');
-               $(this).css('font-style','normal');
-               $(this).css('transition','1s');
+               titre.css('text-decoration','none');
+               titre.css('font-style','normal');
+               titre.css('transition','1s');
             }                                  
        );
     });
     
     blockPro.children().each(function(){
+       var titre = $(this).find('.titreF');
        $(this).hover(function(){
-           $(this).css('cursor','pointer');
-           $(this).css('font-style','italic');
-           $(this).css('text-decoration','underline');
-           $(this).css('transition','1s');
-                                },
+           titre.css('cursor','pointer');
+           titre.css('font-style','italic');
+           titre.css('text-decoration','underline');
+           titre.css('transition','1s');},
             function(){
-               $(this).css('text-decoration','none');
-               $(this).css('font-style','normal');
-               $(this).css('transition','1s');
-            }                                  
+               titre.css('text-decoration','none');
+               titre.css('font-style','normal');
+               titre.css('transition','1s');
+            }                                   
        );
     });
     
     blockSup.children().each(function(){
+       var titre = $(this).find('.titreF');
        $(this).hover(function(){
-           $(this).css('cursor','pointer');
-           $(this).css('font-style','italic');
-           $(this).css('text-decoration','underline');
-           $(this).css('transition','1s');
-                                },
+           titre.css('cursor','pointer');
+           titre.css('font-style','italic');
+           titre.css('text-decoration','underline');
+           titre.css('transition','1s');},
             function(){
-               $(this).css('text-decoration','none');
-               $(this).css('font-style','normal');
-               $(this).css('transition','1s');
-            }                                  
+               titre.css('text-decoration','none');
+               titre.css('font-style','normal');
+               titre.css('transition','1s');
+            }                                    
        );
     });
 
@@ -95,13 +101,21 @@ $(document).ready(function () {
     });
     
     titreclique.click(function(){
-        
+        var texte = $(this).parent().find('.contenuFDiv');
+        var div = $(this).parent().parent();       
+        div.children().each(function(){
+            $(this).find('.titreF').hide();
+        });      
+        texte.show();
+        div.find('.btnPrec').show();
+    });
+    
+    btnPrec.click(function(){
+       var div = $(this).parent();       
+       div.children().each(function(){
+            $(this).find('.titreF').show();
+            $(this).find('.contenuFDiv').hide();
+       });            
+       $(this).hide();
     });
 });
-
-/*function modif(nom){
-    var element = nom.parentNode;
-    var texte = element.innerHTML;
-    texte.hide();
-}
-});*/
