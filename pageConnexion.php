@@ -27,10 +27,10 @@ else{?>
     </div>
         <div class="lienUtiles">
             <p class="titreUtile">Liens utiles :</p>
-            <a class="lienInfo" href="http://www.jean-moulin-roubaix.savoirsnumeriques5962.fr"><h2>Accéder à l'ENT</h2></a>
-            <a class="lienInfo" href="https://extranet.lycee-jean-moulin.com:8443/intranet/"><h2>Accéder à l'intranet</h2></a>
-            <a class="lienInfo" href="http://www.google.fr"><h2>Accéder à Google</h2></a>
-            <a class="lienInfo" href="#"><h2>Accéder a moodle</h2></a>
+            <a class="lienInfo" href="http://www.jean-moulin-roubaix.savoirsnumeriques5962.fr" target="_blank"><h2>Accéder à l'ENT</h2></a>
+            <a class="lienInfo" href="https://extranet.lycee-jean-moulin.com:8443/intranet/" target="_blank"><h2>Accéder à l'intranet</h2></a>
+            <a class="lienInfo" href="http://www.google.fr" target="_blank"><h2>Accéder à Google</h2></a>
+            <a class="lienInfo" href="#" target="_blank"><h2>Accéder a moodle</h2></a>
         </div>          
 </div>
     
@@ -40,6 +40,13 @@ else{?>
         ?>
         <div class="titrePanelAdmin1">Panel administration des formations :</div>       
         <?php
-        include('php/panelAdmin/recupFormation.php');
+        if($_SESSION['levelUser']==4)
+        {
+            include('php/panelAdmin/recupFormation.php');
+        }
+        else{
+            echo "Vous n'avez pas les droits necessaires afin d'ajouter des formations !";
+        }
+        
     }?>
 </div>
