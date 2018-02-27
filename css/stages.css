@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
 .STAGES{
     background-color: blue;
     position: absolute;
@@ -7,4 +9,14 @@
     width: 100%;
     height: 100vh;
     background-color: rgba(255, 255, 255, 0.75);
+}
+
+.titreStages{
+    margin-left: 40%;
+    font-family: 'Quicksand';
+}
+
+.stagesC{
+    margin-left: -50%;
+    margin-top: 10%;
 }
