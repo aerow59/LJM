@@ -35,7 +35,9 @@ else{?>
     }?>
 </div>
 
-<div class="ESPACE_INFO">
+<div class="ESPACE_INFO"><?php
+    if(isset($_SESSION['nomUser']))
+        {?>
     <h2 class="titreINFO">Vos informations : </h2> <br>
     <div class="connexion3">
         <h2 class="infoE0">Nom : <?php echo $_SESSION['nomUser']; ?></h2>
@@ -49,5 +51,6 @@ else{?>
             <a class="lienInfo" href="https://extranet.lycee-jean-moulin.com:8443/intranet/" target="_blank"><h2>Accéder à l'intranet</h2></a>
             <a class="lienInfo" href="http://www.google.fr" target="_blank"><h2>Accéder à Google</h2></a>
             <a class="lienInfo" href="#" target="_blank"><h2>Accéder a moodle</h2></a>
-        </div>          
+        </div>   
+    <?php }?>
 </div>
