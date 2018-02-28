@@ -14,8 +14,9 @@
 .titreFormation{
     margin-top: 0px;
     flex-direction: column;    
-    margin-left: 300px;
+    margin-left: 45%;
     color: black;
+    font-family: "Quicksand";
 }
 
 .superieur {
