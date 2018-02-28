@@ -4,6 +4,7 @@ require('configBDD.php');
 $nom = $_POST['nomSoc'];
 $mail = $_POST['emailSoc'];
 $tel = $_POST['telSoc'];
+$objet = $_POST['objetSoc'];
 $contenu = $_POST['caractSoc'];
 $fichier = $_FILES['fichierSoc'];
 $typeFichier = $fichier['type'];
@@ -17,8 +18,8 @@ if(!strstr($typeFichier,'jpg') && !strstr($typeFichier,'png') && !strstr($typeFi
 
 if(move_uploaded_file($fichier['tmp_name'], $chemin.$fichier['name'])){
     $cheminE = $chemin.$fichier['name'];
-    $requeteInsertionStage = $bdd->prepare("INSERT INTO offreentreprise(nomEntreprise,mailEntreprise,telEntreprise,contenuOffreEntreprise,fichierEntreprise) "
-        . "VALUES('$nom','$mail','$tel','$contenu','$cheminE')");
+    $requeteInsertionStage = $bdd->prepare("INSERT INTO offreentreprise(nomEntreprise,objetStage,mailEntreprise,telEntreprise,contenuOffreEntreprise,fichierEntreprise) "
+        . "VALUES('$nom','$objet','$mail','$tel','$contenu','$cheminE')");
     $requeteInsertionStage->execute();
 }
 

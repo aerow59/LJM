@@ -1,9 +1,12 @@
 <link rel="stylesheet" href="css/depotStage.css">
 <div class="titreDepotStage"><h3>Deposer une offre de stage</h3></div>
+
 <div class="formStage">
     <form method="POST" action="php/ajoutOffre.php" enctype="multipart/form-data">
             <label for="nomSoc">Nom de votre société : </label>
             <input type="text" name="nomSoc"><br><br>
+            <label for="objetSoc">Objet du stage : </label>
+            <input type="text" name="objetSoc"><br><br>
             <label for="nomSoc">Votre e-mail : </label>
             <input type="email" name="emailSoc"><br><br>
             <label for="telSoc">Votre numéro de téléphone : </label>

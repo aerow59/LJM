@@ -10,11 +10,16 @@ $i = 0;
     while($donnees = $requeteTitreUfa->fetch()){
         $idDiv = 'divBTS'.strval($i)?>
         <div class="<?php echo $idDiv ?>">
-            <h3><?php echo $donnees['nomFormation']; ?></h3>
-            <p><?php echo $donnees['description']; ?></p>
+            <h3 class="titreBTS"><?php echo $donnees['nomFormation']; ?></h3>
+            <p class="descriptionBTS"><?php echo $donnees['description']; ?></p>
+            <p class="contenuUfa"><?php echo $donnees['contenu']; ?><br>
+                <button class="btnPrecBTS">Précédent</button>
+            </p>
         </div><?php
         $i = $i+1;
     } ?>
 </div>
+<script src="js/jquery-3.2.1.js"></script>
+<script src="js/ufa.js"></script>
 
 
