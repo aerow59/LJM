@@ -12,7 +12,16 @@ $(document).ready(function(){
     contenuFormation.hide();
     
     btnPrecUFA.click(function(){
-        var div = $(this).parent();
+        var titre = $(this).parent().parent().find('.titreBTS').text();
+        var div = $(this).parent().parent();
+        
+        if(titre == "BTS NDRC"){
+           div.css('margin-left','150px');
+        }if(titre == "BTS SAM"){
+            
+        }else{
+            
+        }
         
         portail.show();
         titreBTS.show();
@@ -20,8 +29,8 @@ $(document).ready(function(){
         apprentissage.show();
         moda.show();
         
-        $(this).hide();  
-        div.hide();
+        $(this).hide();
+        $(this).parent().parent().find('.contenuUfa').hide()
     });
     
     titreBTS.click(function(){
@@ -32,7 +41,14 @@ $(document).ready(function(){
         contenu.css('height','600px');
         contenu.css('margin-top','-5%');
         
-        contenu.css('margin-left','-2%');
+        if(titre == "BTS NDRC"){
+            div.css('margin-left','-20%');
+        }if(titre == "BTS SAM"){
+            
+        }else{
+            
+        } 
+        
         contenu.css('overflow-y','scroll');
         btnPrecUFA.css('width','100%');
         portail.hide();

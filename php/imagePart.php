@@ -21,7 +21,7 @@ if(isset($_FILES['image']) && $_POST['nomEntreprise'])
             //requete d'insertion
             $requete = $bdd->prepare("INSERT INTO partenariatapprentissage(nomPartenariat, nomChemin) VALUES ('$titre','$chemin')");
             $requete->execute();
-            header('Location ../index.php');
+            header('Location: ../index.php');
         }
         else
         {
