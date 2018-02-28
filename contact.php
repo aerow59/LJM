@@ -16,7 +16,7 @@
         <input type="text" class="email" name="email" placeholder="Email" id="email"><br><br>
     
         <textarea name="message" rows="10" cols="50" placeholder="Entrez votre message ici."></textarea><br><br>
-        <input class="validerEnvoie" type="submit" value="Envoyer" name="mailform" id="MESSAGE">
+        <input class="validerEnvoie" type="submit" value="Envoyer" name="mailform" id="IDMESSAGE">
     </form>
     
 </div>

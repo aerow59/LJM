@@ -64,20 +64,21 @@
      * Verification du message
      */
 
-    if($_POST['MESSAGE']==''){
+    if($_POST['IDMESSAGE']==''){
         echo '<div class="error" >Votre message ne peut pas être vide ! </div>';
         //exit();
     }
-    elseif (strlen($_POST['MESSAGE'])<50) 
+    elseif (strlen($_POST['IDMESSAGE'])<50) 
     {
         echo '<div class="error" >Votre message n\'est pas assez long (Min 50 caractères) ! </div>';
         //exit();
     }
     else
     {
-        $message=$_POST['MESSAGE'];
+        $message=$_POST['IDMESSAGE'];
     }
     
+if($_POST['name']!=='' && $_POST['FIRSTNAME']!=='' && $_POST['mail']!=='' && $_POST['IDMESSAGE']!==''){
     $to = 'romainbouchez62@gmail.com';
     
     $header="Mime-VErsion 1.0\r\n";
@@ -86,7 +87,8 @@
     
     $premiereLigne='<b>Envoyé par </b> : '.$_POST['FIRSTNAME'].' '.$_POST['name'];
     
-    mail($to,"Demande de contact", $premiereLigne, $message);
+    mail($to,"Demande de contact", $premiereLigne, $message,$header);
     
     echo '<div class="success"><h4> Mail envoyé !</h4><br> Merci '.$_POST['name'].' pour votre message.</div>';
+}
     
