@@ -3,9 +3,13 @@ if(!isset($_SESSION['nomUser']) && !isset($_SESSION['prenomUser'])){?>
    <form method="POST" action="php/connexionPhp.php">
     <link rel="stylesheet" href="css/connexion.css">
     <div class="connexion"><h7>Connexion</h7></div>
-    <div class="textco"> <p>Connectez vous pour pouvoir accéder à vos <br> informations et/ou à moodle.</p></div>
-        <input class="Rectangle_arrondi_2" type="text" name="identifiantU"><br><br>
-        <input class="Rectangle_arrondi_1" type="password" name="mdpU"><br><br>
+    <div class="textco"> <p>Bienvenue sur le site du Lycée Jean Moulin de Roubaix. <br> 
+	Ici, vous pouvez trouver un accès à vos informations <br>
+	personnelles ainsi que d'autres ressources utiles, <br>
+	comme l'accès à Moodle ou l'ENT.</p></div>
+        
+		<input class="Rectangle_arrondi_2" type="text" placeholder=" Identifiant" name="identifiantU"><br><br>
+        <input class="Rectangle_arrondi_1" type="password"  placeholder=" Mot de passe" name="mdpU"><br><br>
         <input class="boutonvalider" type="image" src="images/validerblanc.png" value="Valider"> 
     </form>
     <div class="aide">
@@ -48,9 +52,9 @@ else{?>
         <div class="lienUtiles">
             <p class="titreUtile">Liens utiles :</p>
             <a class="lienInfo" href="http://www.jean-moulin-roubaix.savoirsnumeriques5962.fr" target="_blank"><h2>Accéder à l'ENT</h2></a>
-            <a class="lienInfo" href="https://extranet.lycee-jean-moulin.com:8443/intranet/" target="_blank"><h2>Accéder à l'intranet</h2></a>
+            <a class="lienInfo" href="https://extranet.lycee-jean-moulin.com:8443/intranet/" target="_blank"><h2>Accéder à l'Intranet du lycée</h2></a>
             <a class="lienInfo" href="http://www.google.fr" target="_blank"><h2>Accéder à Google</h2></a>
-            <a class="lienInfo" href="#" target="_blank"><h2>Accéder a moodle</h2></a>
+            <a class="lienInfo" href="#" target="_blank"><h2>Accéder à Moodle</h2></a>
         </div>   
     <?php }?>
 </div>
