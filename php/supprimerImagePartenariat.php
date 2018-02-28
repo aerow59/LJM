@@ -1,14 +1,12 @@
 <?php
 require('configBDD.php');
-$requeteSupprimeImagePartenariat = $bdd->prepare('SELECT * FROM videocdi WHERE numeroDiv=2');
+
+$nom = $_GET['nom'];
+$chemin = $_GET['chemin'];
+
+
+$requeteSupprimeImagePartenariat = $bdd->prepare("DELETE FROM partenariatapprentissage WHERE nomPartenariat='$nom'");
 $requeteSupprimeImagePartenariat->execute();
-
-while($donnees = $requeteSupprimeImagePartenariat->fetch()){
-    $nomVideo = $donnees['nomVideoOrigine'];
-    unlink($nomVideo);
-}
-
-$requete2 = $bdd->prepare("DELETE FROM videocdi WHERE numeroDiv=2");
-$requete2->execute();
-
+$chemin = '../'.$chemin;
+unlink($chemin);
 header('Location: ../index.php');
