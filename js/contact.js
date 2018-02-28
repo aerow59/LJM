@@ -6,7 +6,7 @@ $(document).ready(function(){
         var name =$('#name').val();
         var FIRSTNAME=$('#FIRSTNAME').val();
         var mail =$('#email').val();
-        var MESSAGE=$('#MESSAGE').val();
+        var IDMESSAGE=$('#IDMESSAGE').val();
         
         
         $(".messages").slideUp('800',function(){
@@ -16,7 +16,7 @@ $(document).ready(function(){
                name: name,
                FIRSTNAME: FIRSTNAME,
                mail:mail,
-               MESSAGE:MESSAGE
+               IDMESSAGE:IDMESSAGE
            },function(data){
                $(".messages").html(data);
                $(".messages").slideDown('slow');
