@@ -28,7 +28,9 @@
             </nav>
             <!--FIN NAV GAUCHE-->
             <div class="slogan">
+
                 <img src="images/phrasemaquer.gif"/>
+
             </div>
             <!--ACTUALITES-->
             <div class="expositions">
