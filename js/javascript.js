@@ -26,25 +26,25 @@ $(document).ready(function () {
         produits = $('.produits'),
         fermercasq = $('.fermercasq'),
         fermersac = $('.fermersac'),
-        boutonMenugreta = $('.lienMenuDroite0'),
+        boutonMenugreta = $('.lienMenuDroite1'),
         pageGreta = $('.GRETA'),
         page_connexion = $('.page_connexion'),
-        boutonMenuUfa = $('.lienMenuDroite1'),
+        boutonMenuUfa = $('.lienMenuDroite2'),
         pageUfa = $('.UFA'),
-        boutonMenuPartenariat = $('.lienMenuDroite4'),
-        pagePartenariatAppr = $('.PARTENARIAT'),
-        boutonMenuFormation = $('.lienMenuDroite3'),
+        boutonMenuFormation = $('.lienMenuDroite0'),
         pageFormation = $('.FORMATION'),
-        boutonPartenariat = $('.lienMenuDroite2'),
+        boutonPartenariat = $('.lienMenuDroite4'),
         pagePartenariat = $('.PARTENARIATAPPR'),
-        boutonMenuStagePFMP = $('.lienMenuDroite5'),
+        boutonMenuStagePFMP = $('.lienMenuDroite3'),
         pageStagesPFMP = $('.STAGES'),
-        boutonMenuCDI = $('.lienMenuDroite6'),
+        boutonMenuCDI = $('.lienMenuDroite5'),
         pageCDI = $('.CDI'),
-        boutMenuPresse = $('.lienMenuDroite7'),
+        boutMenuPresse = $('.lienMenuDroite6'),
         pagePresse = $('.PRESSE'),
-        boutonMenuStage = $('.lienMenuDroite8'),
+        boutonMenuDepotStage = $('.lienMenuDroite7'),
         pageDepotStage = $('.DEPOT_STAGE'), 
+        boutonMenuVoirStage = $('.lienMenuDroite8'),
+        pageVoirStage = $('.VOIR_STAGES'),
         boutonMenuContact = $('.lienMenuDroite9'),
         pageContact = $('.CONTACT'),
         boutonMenuLivreOr = $('.lienMenuDroite10'),
@@ -78,7 +78,7 @@ $(document).ready(function () {
         pageFormation.css('transform','translateX(2000px)').css('transition','0s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0'); 
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s'); 
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
@@ -105,7 +105,7 @@ $(document).ready(function () {
         pageFormation.css('transform','translateX(2000px)').css('transition','0s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
@@ -131,7 +131,7 @@ $(document).ready(function () {
         pageFormation.css('transform','translateX(2000px)').css('transition','0s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
@@ -158,7 +158,7 @@ $(document).ready(function () {
         pageFormation.css('transform','translateX(2000px)').css('transition','0s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
@@ -185,7 +185,7 @@ $(document).ready(function () {
         pageUfa.css('transform','translateX(2000px)').css('transition','0s');  
         pageFormation.css('transform','translateX(2000px)').css('transition','0');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
         pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
@@ -279,7 +279,6 @@ $(document).ready(function () {
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');      
         pageGreta.css('transform', 'translateX(0)').css('transition', '0.3s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
@@ -287,6 +286,7 @@ $(document).ready(function () {
         pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
         pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
         pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
@@ -304,11 +304,11 @@ $(document).ready(function () {
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
         pageFormation.css('transform','translateX(0)').css('transition','0.3s');     
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
         pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
         pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
         pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
@@ -326,33 +326,11 @@ $(document).ready(function () {
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
         pageUfa.css('transform','translateX(0)').css('transition','0.3s');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
         pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
         pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
         pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
-        menu.css('transform', 'translateX(300px)');
-        menuouvrir.show();
-        menufermer.hide();
-    });
-    
-    boutonMenuPartenariat.click(function(){
-        expo.css('transform', 'translateX(-2000px)').css('transition', '0.3s');
-        infos.css('transform', 'translateX(-2000px)').css('transition', '0.3s');
-        page_connexion.css('transform','translateX(-2000px)');
-        shop.css('transform', 'translateX(-2000px)');
-        pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
-        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
-        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
-        pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');   
-        pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
-        pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePartenariatAppr.css('transform','translateX(0)').css('transition','0.3s');
-        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
-        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
-        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
@@ -366,7 +344,6 @@ $(document).ready(function () {
         pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
@@ -375,6 +352,7 @@ $(document).ready(function () {
         pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
         pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
         pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
@@ -388,7 +366,6 @@ $(document).ready(function () {
         pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
@@ -397,6 +374,7 @@ $(document).ready(function () {
         pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
         pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
         pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
@@ -410,7 +388,6 @@ $(document).ready(function () {
         pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
@@ -419,6 +396,7 @@ $(document).ready(function () {
         pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
         pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
         pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
@@ -432,7 +410,6 @@ $(document).ready(function () {
         pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
@@ -441,6 +418,7 @@ $(document).ready(function () {
         pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
         pageCDI.css('transform','translateX(0)').css('transition','0.3s');
         pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
@@ -454,7 +432,6 @@ $(document).ready(function () {
         pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
         pageFormation.css('transform','translateX(0)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
@@ -463,6 +440,7 @@ $(document).ready(function () {
         pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
         pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
@@ -476,7 +454,6 @@ $(document).ready(function () {
         pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
@@ -485,12 +462,13 @@ $(document).ready(function () {
         pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePresse.css('transform','translateX(0)').css('transition','0.3s');
         pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
     });
     
-    boutonMenuStage.click(function(){
+    boutonMenuDepotStage.click(function(){
         expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
         infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
         page_connexion.css('transform','translateX(-2000px)');
@@ -498,7 +476,6 @@ $(document).ready(function () {
         pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
@@ -507,9 +484,32 @@ $(document).ready(function () {
         pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(0)').css('transition','0.3s');
         pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
+    });
+    
+    boutonMenuVoirStage.click(function(){
+        expo.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        infos.css('transform', 'translateX(-2000px)').css('transition', '0s');
+        page_connexion.css('transform','translateX(-2000px)');
+        shop.css('transform', 'translateX(-2000px)');
+        pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageStagesPFMP.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
+        pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageVoirStage.css('transform','translateX(0)').css('transition','0.3s');
+        menu.css('transform', 'translateX(300px)');
+        menuouvrir.show();
+        menufermer.hide();             
     });
     
     boutonMenuContact.click(function(){
@@ -520,7 +520,6 @@ $(document).ready(function () {
         pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(0)').css('transition','0.3s');
@@ -529,6 +528,7 @@ $(document).ready(function () {
         pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pageLivreOr.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();
         menufermer.hide();
@@ -542,7 +542,6 @@ $(document).ready(function () {
         pageGreta.css('transform','translateX(2000px)').css('transition','0.3s');    
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pageUfa.css('transform','translateX(2000px)').css('transition','0.3s');
-        pagePartenariatAppr.css('transform','translateX(2000px)').css('transition','0.3s');
         pageFormation.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePartenariat.css('transform','translateX(2000px)').css('transition','0.3s');
         pageContact.css('transform','translateX(2000px)').css('transition','0.3s');
@@ -550,6 +549,7 @@ $(document).ready(function () {
         pageCDI.css('transform','translateX(2000px)').css('transition','0.3s');
         pagePresse.css('transform','translateX(2000px)').css('transition','0.3s');
         pageDepotStage.css('transform','translateX(2000px)').css('transition','0.3s');
+        pageVoirStage.css('transform','translateX(2000px)').css('transition','0.3s');
         pageLivreOr.css('transform','translateX(0)').css('transition','0.3s');
         menu.css('transform', 'translateX(300px)');
         menuouvrir.show();

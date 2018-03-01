@@ -6,7 +6,7 @@ $requeteTitreUfa->execute();
 
 
 $i = 0;
-?><div class="BTS"><?php
+?><div class="BTSUFA"><?php
     while($donnees = $requeteTitreUfa->fetch()){
         $idDiv = 'divBTS'.strval($i)?>
         <div class="<?php echo $idDiv ?>">

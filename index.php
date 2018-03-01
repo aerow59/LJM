@@ -122,6 +122,10 @@
             <div class="CONTACT">
                 <?php include('contact.php'); ?>
             </div>
+            
+            <div class="VOIR_STAGES">
+                <?php include('voir_Offre.php'); ?>
+            </div>
             <!--FIN PAGE CONTACT-->
             
         </div>
